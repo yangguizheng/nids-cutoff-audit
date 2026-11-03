@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.bak
+.env
+.venv/
+.pytest_cache/
+.DS_Store
+*.npz
+*.parquet
+*.tar
+*.tar.zst
+scores_*/
+data/external/
+data/processed/
