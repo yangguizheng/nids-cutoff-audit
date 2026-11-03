@@ -1,0 +1,5 @@
+dataset,fold,metric,seed_sd,n_groups,n_rep_min,n_rep_max
+UNSW,f0,roc_auc,0.009323,45,20,20
+UNSW,f1,roc_auc,0.014245,45,20,20
+CIC17,-,roc_auc,0.007319,45,20,20
+CIC18,-,roc_auc,0.048004,45,20,20

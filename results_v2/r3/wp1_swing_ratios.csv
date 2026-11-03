@@ -1,0 +1,9 @@
+dataset,fold,route_subset,factor,swing_excess,swing_roc_auc,ratio,ratio_ci_lo,ratio_ci_hi
+CIC17,-,all,segment,0.26593,0.283047,0.9395,0.9212,0.9619
+CIC17,-,all,padding,0.039346,0.001768,22.251,10.4641,82.6579
+CIC17,-,all,model,0.234509,0.029959,7.8276,7.3556,8.3214
+CIC17,-,tw30s,padding,0.003223,0.002692,1.1973,0.2758,4.4805
+CIC17,-,tw30s,model,0.052669,0.081153,0.649,0.6135,0.6864
+CIC17,-,host+service,segment,0.004154,0.011317,0.3671,0.0187,1.2297
+CIC17,-,host+service,padding,0.059147,0.002067,28.6127,22.5595,38.9233
+CIC17,-,host+service,model,0.329732,0.004744,69.5115,62.8719,76.7851

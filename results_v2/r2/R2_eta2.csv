@@ -1,0 +1,55 @@
+dataset,fold,metric,term,ss,df,eta2,partial_eta2,F,p,source
+CIC17,-,excess,segment,13.9262144,2,0.414436,0.872833,2934.2135,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,excess,padding,0.30249944,2,0.009002,0.129746,63.7358,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,excess,model,9.32204729,4,0.277419,0.821252,982.0643,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,excess,segmentxpadding,0.46260746,4,0.013767,0.185668,48.735,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,excess,segmentxmodel,6.52529924,8,0.194189,0.762811,343.7155,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,excess,paddingxmodel,0.23223529,8,0.006911,0.102704,12.2328,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,excess,segmentxpaddingxmodel,0.80292901,16,0.023895,0.283529,21.1469,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,excess,residual,2.02897867,855,0.060381,,,,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,excess,total,33.60281082,899,1.0,,,,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,segment,15.40801219,2,0.975242,0.990905,46578.2509,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,padding,0.00048615,2,3.1e-05,0.003426,1.4696,0.2306,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,model,0.09895694,4,0.006263,0.41168,149.5729,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,segmentxpadding,0.00083425,4,5.3e-05,0.005865,1.261,0.2837,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,segmentxmodel,0.14769567,8,0.009348,0.51086,111.6206,1.11e-16,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,paddingxmodel,0.00069866,8,4.4e-05,0.004916,0.528,0.8359,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,segmentxpaddingxmodel,0.00106819,16,6.8e-05,0.007497,0.4036,0.9819,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,residual,0.14141633,855,0.008951,,,,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+CIC17,-,roc_auc,total,15.79916838,899,1.0,,,,"Transcribed from results_v2/wp1_eta2.csv (same function, CIC17 20 seeds)"
+UNSW,f0,excess,segment,32.16402568,2,0.706212,0.988556,36927.7405,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,excess,padding,0.09561636,2,0.002099,0.204322,109.7778,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,excess,model,4.27527051,4,0.09387,0.919883,2454.2338,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,excess,segmentxpadding,0.22875362,4,0.005023,0.380555,131.3168,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,excess,segmentxmodel,8.3672509,8,0.183716,0.957395,2401.6247,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,excess,paddingxmodel,0.01375267,8,0.000302,0.035619,3.9474,0.0001339,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,excess,segmentxpaddingxmodel,0.02739782,16,0.000602,0.068537,3.932,3.285e-07,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,excess,residual,0.37235208,855,0.008176,,,,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,excess,total,45.54441964,899,1.0,,,,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,segment,7.8648197,2,0.449804,0.950116,8142.3136,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,padding,0.0006738,2,3.9e-05,0.001629,0.6976,0.4981,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,model,3.07398275,4,0.175807,0.881577,1591.2209,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,segmentxpadding,0.00120723,4,6.9e-05,0.002915,0.6249,0.6448,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,segmentxmodel,6.12857815,8,0.350505,0.936875,1586.2031,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,paddingxmodel,0.00094452,8,5.4e-05,0.002282,0.2445,0.9822,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,segmentxpaddingxmodel,0.00186589,16,0.000107,0.004498,0.2415,0.9991,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,residual,0.4129306,855,0.023616,,,,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f0,roc_auc,total,17.48500265,899,1.0,,,,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,segment,15.64916018,2,0.59609,0.76315,1377.4371,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,padding,0.00229531,2,8.7e-05,0.000472,0.202,0.8171,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,model,2.07633208,4,0.079089,0.299477,91.3792,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,segmentxpadding,0.00325843,4,0.000124,0.00067,0.1434,0.9659,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,segmentxmodel,3.65136062,8,0.139083,0.429157,80.3481,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,paddingxmodel,0.00258413,8,9.8e-05,0.000532,0.0569,0.9999,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,segmentxpaddingxmodel,0.01117016,16,0.000425,0.002295,0.1229,1.0,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,residual,4.85685759,855,0.185002,,,,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,excess,total,26.25301851,899,1.0,,,,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,segment,3.3254566,2,0.63082,0.813342,1862.7884,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,padding,0.00015755,2,3e-05,0.000206,0.0883,0.9155,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,model,0.42109317,4,0.079879,0.355573,117.9398,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,segmentxpadding,0.00611931,4,0.001161,0.007954,1.7139,0.1448,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,segmentxmodel,0.750922,8,0.142446,0.495954,105.1592,1.11e-16,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,paddingxmodel,0.00032223,8,6.1e-05,0.000422,0.0451,1.0,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,segmentxpaddingxmodel,0.00439595,16,0.000834,0.005727,0.3078,0.996,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,residual,0.76317456,855,0.14477,,,,20-seed recomputation (results_v2/det_unsw_s20.db)
+UNSW,f1,roc_auc,total,5.27164138,899,1.0,,,,20-seed recomputation (results_v2/det_unsw_s20.db)

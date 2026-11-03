@@ -1,0 +1,286 @@
+subset,kind,arm,contrast,metric,value,lo,hi,n,n_collapsed,note
+all,arm,inf_U,,collapse_rate,0.7544444444444445,0.7252820055871873,0.7814440308546297,900,679,
+all,arm,inf_U,,excess,-5.551115123125783e-17,,,900,679,median
+all,arm,inf_U,,roc_auc,0.7510308064857136,,,900,679,median
+all,arm,inf_U,,pos_q50,0.006465948186814785,,,900,679,median
+all,arm,inf_U,,pred_true_ratio,0.10227272727272728,,,900,679,median
+all,arm,inf_U,,tpr_at_fpr_1pct,0.1,,,900,679,median
+all,arm,inf_U,,train_prior,0.07008622595622374,,,900,679,median
+all,arm,inf_U,,n_train,99691.0,,,900,679,median
+all,arm_model,inf_U,hgb,collapse_rate,0.8666666666666667,0.8092727787274111,0.908737189463406,180,156,
+all,arm_model,inf_U,lstm,collapse_rate,0.6611111111111111,0.5892403973636117,0.7262488310838685,180,119,
+all,arm_model,inf_U,rf,collapse_rate,1.0,0.9791045020783868,1.0,180,180,
+all,arm_model,inf_U,tcn,collapse_rate,0.65,0.5778472012021525,0.7158841494213636,180,117,
+all,arm_model,inf_U,transformer,collapse_rate,0.5944444444444444,0.5214682599781288,0.6634737015255664,180,107,
+all,arm,inf_S,,collapse_rate,0.6644444444444444,0.6329544158413053,0.6945366470119212,900,598,
+all,arm,inf_S,,excess,0.0,,,900,598,median
+all,arm,inf_S,,roc_auc,0.8040818417195373,,,900,598,median
+all,arm,inf_S,,pos_q50,0.018759709581423402,,,900,598,median
+all,arm,inf_S,,pred_true_ratio,0.2,,,900,598,median
+all,arm,inf_S,,tpr_at_fpr_1pct,0.285377358490566,,,900,598,median
+all,arm,inf_S,,train_prior,0.06423517597115078,,,900,598,median
+all,arm,inf_S,,n_train,101854.0,,,900,598,median
+all,arm_model,inf_S,hgb,collapse_rate,0.8666666666666667,0.8092727787274111,0.908737189463406,180,156,
+all,arm_model,inf_S,lstm,collapse_rate,0.5444444444444444,0.47151949265004,0.6155120186458165,180,98,
+all,arm_model,inf_S,rf,collapse_rate,1.0,0.9791045020783868,1.0,180,180,
+all,arm_model,inf_S,tcn,collapse_rate,0.6111111111111112,0.538281972749167,0.6792968054904746,180,110,
+all,arm_model,inf_S,transformer,collapse_rate,0.3,0.23780501249550134,0.37055318667314374,180,54,
+all,arm,inf_P,,collapse_rate,0.7511111111111111,0.7218361383096777,0.778251565777006,900,676,
+all,arm,inf_P,,excess,0.0,,,900,676,median
+all,arm,inf_P,,roc_auc,0.7396749640804183,,,900,676,median
+all,arm,inf_P,,pos_q50,0.0067168917714598795,,,900,676,median
+all,arm,inf_P,,pred_true_ratio,0.1,,,900,676,median
+all,arm,inf_P,,tpr_at_fpr_1pct,0.1,,,900,676,median
+all,arm,inf_P,,train_prior,0.06669383963525029,,,900,676,median
+all,arm,inf_P,,n_train,99691.0,,,900,676,median
+all,arm_model,inf_P,hgb,collapse_rate,0.8722222222222222,0.8155638865813233,0.9133250205214758,180,157,
+all,arm_model,inf_P,lstm,collapse_rate,0.6388888888888888,0.566494145176867,0.7054793276226847,180,115,
+all,arm_model,inf_P,rf,collapse_rate,1.0,0.9791045020783868,1.0,180,180,
+all,arm_model,inf_P,tcn,collapse_rate,0.6166666666666667,0.543905274731144,0.6845524424204796,180,111,
+all,arm_model,inf_P,transformer,collapse_rate,0.6277777777777778,0.5551804128163538,0.695035182159234,180,113,
+all,diff,inf_S,inf_S-inf_U,excess_median,0.0,0.0,7.698029020009045e-06,900,,Each pair = first minus second
+all,diff,inf_S,inf_S-inf_U,excess_mean,0.023746256376228937,0.01778157268472787,0.030258248876626013,900,,Each pair = first minus second; same-sign rate 0.493
+all,diff,inf_S,inf_S-inf_U,collapse_rate,-0.09,-0.11333333333333333,-0.06777777777777778,900,,Each pair = first minus second; same-sign rate 0.103
+all,diff,inf_S,inf_S-inf_U,roc_auc_median,0.017771824615229137,0.012618405471501226,0.024367816091954042,900,,Each pair = first minus second; same-sign rate 0.670
+all,diff,inf_S,inf_S-inf_U,pos_q50_median,7.50787898005402e-07,-1.2980487333891226e-07,1.4644763677757063e-05,900,,Each pair = first minus second; same-sign rate 0.522
+all,diff,inf_S,inf_S-inf_U,pred_true_ratio_median,0.0,0.0,0.0,900,,Each pair = first minus second
+all,diff,inf_P,inf_P-inf_U,excess_median,0.0,0.0,0.0,900,,Each pair = first minus second
+all,diff,inf_P,inf_P-inf_U,excess_mean,0.0010285879325639979,-0.0020702278518191382,0.004101002030323261,900,,Each pair = first minus second; same-sign rate 0.337
+all,diff,inf_P,inf_P-inf_U,collapse_rate,-0.0033333333333333335,-0.022222222222222223,0.014444444444444444,900,,Each pair = first minus second; same-sign rate 0.036
+all,diff,inf_P,inf_P-inf_U,roc_auc_median,0.0026982607610281373,0.0008683407560830653,0.006105016224142612,900,,Each pair = first minus second; same-sign rate 0.546
+all,diff,inf_P,inf_P-inf_U,pos_q50_median,3.4342004909441607e-29,-2.686851630073761e-07,6.076142208378564e-07,900,,Each pair = first minus second; same-sign rate 0.500
+all,diff,inf_P,inf_P-inf_U,pred_true_ratio_median,0.0,0.0,0.0,900,,Each pair = first minus second
+all,diff,inf_S,inf_S-inf_P,excess_median,0.0,0.0,7.2880290435395345e-06,900,,Each pair = first minus second
+all,diff,inf_S,inf_S-inf_P,excess_mean,0.022717668443664938,0.01703989568584926,0.028739191261590483,900,,Each pair = first minus second; same-sign rate 0.486
+all,diff,inf_S,inf_S-inf_P,collapse_rate,-0.08666666666666667,-0.10888888888888888,-0.06444444444444444,900,,Each pair = first minus second; same-sign rate 0.102
+all,diff,inf_S,inf_S-inf_P,roc_auc_median,0.01296982064039437,0.008222545182858143,0.018095622161977964,900,,Each pair = first minus second; same-sign rate 0.640
+all,diff,inf_S,inf_S-inf_P,pos_q50_median,4.116833679290721e-06,1.4947075122456743e-08,2.563866831456807e-05,900,,Each pair = first minus second; same-sign rate 0.536
+all,diff,inf_S,inf_S-inf_P,pred_true_ratio_median,0.0,0.0,0.0,900,,Each pair = first minus second
+hs,arm,inf_U,,collapse_rate,0.6783333333333333,0.639924273145558,0.7144733868262222,600,407,
+hs,arm,inf_U,,excess,0.0,,,600,407,median
+hs,arm,inf_U,,roc_auc,0.8684946691163368,,,600,407,median
+hs,arm,inf_U,,pos_q50,0.0004068030757480301,,,600,407,median
+hs,arm,inf_U,,pred_true_ratio,0.03125,,,600,407,median
+hs,arm,inf_U,,tpr_at_fpr_1pct,0.4811320754716981,,,600,407,median
+hs,arm,inf_U,,train_prior,0.11029390667291525,,,600,407,median
+hs,arm,inf_U,,n_train,104557.0,,,600,407,median
+hs,arm_model,inf_U,hgb,collapse_rate,0.825,0.7472429012735073,0.8825946405543353,120,99,
+hs,arm_model,inf_U,lstm,collapse_rate,0.5,0.4119387054110839,0.5880612945889161,120,60,
+hs,arm_model,inf_U,rf,collapse_rate,1.0,0.9689808335812966,1.0,120,120,
+hs,arm_model,inf_U,tcn,collapse_rate,0.5166666666666667,0.4281358041299209,0.6041635569894558,120,62,
+hs,arm_model,inf_U,transformer,collapse_rate,0.55,0.46081543419687576,0.636082649161254,120,66,
+hs,arm,inf_S,,collapse_rate,0.5916666666666667,0.55187497385936,0.6302920476214615,600,355,
+hs,arm,inf_S,,excess,5.551115123125783e-17,,,600,355,median
+hs,arm,inf_S,,roc_auc,0.9067134171462528,,,600,355,median
+hs,arm,inf_S,,pos_q50,0.0010964225220959634,,,600,355,median
+hs,arm,inf_S,,pred_true_ratio,0.07670454545454546,,,600,355,median
+hs,arm,inf_S,,tpr_at_fpr_1pct,0.5188679245283019,,,600,355,median
+hs,arm,inf_S,,train_prior,0.10790478329216259,,,600,355,median
+hs,arm,inf_S,,n_train,106872.0,,,600,355,median
+hs,arm_model,inf_S,hgb,collapse_rate,0.8,0.7196332649371805,0.8617552352115976,120,96,
+hs,arm_model,inf_S,lstm,collapse_rate,0.325,0.24775854910601952,0.4130981591405268,120,39,
+hs,arm_model,inf_S,rf,collapse_rate,1.0,0.9689808335812966,1.0,120,120,
+hs,arm_model,inf_S,tcn,collapse_rate,0.43333333333333335,0.34810176437788437,0.5227007911446095,120,52,
+hs,arm_model,inf_S,transformer,collapse_rate,0.4,0.31676408120837146,0.4894397520753694,120,48,
+hs,arm,inf_P,,collapse_rate,0.6666666666666666,0.6279920835233803,0.7032206828053861,600,400,
+hs,arm,inf_P,,excess,0.0,,,600,400,median
+hs,arm,inf_P,,roc_auc,0.866572222090984,,,600,400,median
+hs,arm,inf_P,,pos_q50,0.00032136022491613403,,,600,400,median
+hs,arm,inf_P,,pred_true_ratio,0.03125,,,600,400,median
+hs,arm,inf_P,,tpr_at_fpr_1pct,0.4811320754716981,,,600,400,median
+hs,arm,inf_P,,train_prior,0.11029390667291525,,,600,400,median
+hs,arm,inf_P,,n_train,104557.0,,,600,400,median
+hs,arm_model,inf_P,hgb,collapse_rate,0.8083333333333333,0.7287884399579756,0.8687497407504907,120,97,
+hs,arm_model,inf_P,lstm,collapse_rate,0.4666666666666667,0.37982917045799003,0.555572107303257,120,56,
+hs,arm_model,inf_P,rf,collapse_rate,1.0,0.9689808335812966,1.0,120,120,
+hs,arm_model,inf_P,tcn,collapse_rate,0.48333333333333334,0.3958364430105443,0.5718641958700793,120,58,
+hs,arm_model,inf_P,transformer,collapse_rate,0.575,0.4855775172299302,0.6597696078072642,120,69,
+hs,diff,inf_S,inf_S-inf_U,excess_median,7.288134949573477e-06,0.0,1.4576269899146954e-05,600,,Each pair = first minus second; same-sign rate 0.535
+hs,diff,inf_S,inf_S-inf_U,excess_mean,0.032446701090505736,0.023934434705956183,0.04163033659339216,600,,Each pair = first minus second; same-sign rate 0.535
+hs,diff,inf_S,inf_S-inf_U,collapse_rate,-0.08666666666666667,-0.11666666666666667,-0.058333333333333334,600,,Each pair = first minus second; same-sign rate 0.087
+hs,diff,inf_S,inf_S-inf_U,roc_auc_median,0.005252572581900816,0.003043218069380349,0.008383832868638308,600,,Each pair = first minus second; same-sign rate 0.617
+hs,diff,inf_S,inf_S-inf_U,pos_q50_median,4.700828647759898e-06,1.6914148957359035e-07,2.864811305572156e-05,600,,Each pair = first minus second; same-sign rate 0.557
+hs,diff,inf_S,inf_S-inf_U,pred_true_ratio_median,0.0,0.0,0.0,600,,Each pair = first minus second
+hs,diff,inf_P,inf_P-inf_U,excess_median,0.0,0.0,0.0,600,,Each pair = first minus second
+hs,diff,inf_P,inf_P-inf_U,excess_mean,0.0023676094652080627,-0.0022633339040307363,0.006916944494737935,600,,Each pair = first minus second; same-sign rate 0.310
+hs,diff,inf_P,inf_P-inf_U,collapse_rate,-0.011666666666666667,-0.028333333333333332,0.006666666666666667,600,,Each pair = first minus second; same-sign rate 0.027
+hs,diff,inf_P,inf_P-inf_U,roc_auc_median,-0.0004553590098210214,-0.0020943110775551556,0.0011406395502016053,600,,Each pair = first minus second; same-sign rate 0.513
+hs,diff,inf_P,inf_P-inf_U,pos_q50_median,-5.315826834297887e-08,-9.180257626171933e-07,2.4399798421063296e-09,600,,Each pair = first minus second; same-sign rate 0.525
+hs,diff,inf_P,inf_P-inf_U,pred_true_ratio_median,0.0,0.0,0.0,600,,Each pair = first minus second
+hs,diff,inf_S,inf_S-inf_P,excess_median,7.2880290435395345e-06,0.0,7.698029020009045e-06,600,,Each pair = first minus second; same-sign rate 0.510
+hs,diff,inf_S,inf_S-inf_P,excess_mean,0.03007909162529767,0.02208764469563978,0.03879765890273119,600,,Each pair = first minus second; same-sign rate 0.510
+hs,diff,inf_S,inf_S-inf_P,collapse_rate,-0.075,-0.10333333333333333,-0.04833333333333333,600,,Each pair = first minus second; same-sign rate 0.085
+hs,diff,inf_S,inf_S-inf_P,roc_auc_median,0.005146088927238834,0.0034469050573999738,0.008043643511335685,600,,Each pair = first minus second; same-sign rate 0.612
+hs,diff,inf_S,inf_S-inf_P,pos_q50_median,1.695569626111822e-05,2.860159968463698e-06,7.685233140364289e-05,600,,Each pair = first minus second; same-sign rate 0.588
+hs,diff,inf_S,inf_S-inf_P,pred_true_ratio_median,0.0,0.0,0.0,600,,Each pair = first minus second
+tw30s,arm,inf_U,,collapse_rate,0.9066666666666666,0.8684146029829267,0.934635780421109,300,272,
+tw30s,arm,inf_U,,excess,-0.0003834288746727421,,,300,272,median
+tw30s,arm,inf_U,,roc_auc,0.5832108743570904,,,300,272,median
+tw30s,arm,inf_U,,pos_q50,0.03287711081925654,,,300,272,median
+tw30s,arm,inf_U,,pred_true_ratio,0.3,,,300,272,median
+tw30s,arm,inf_U,,tpr_at_fpr_1pct,0.0,,,300,272,median
+tw30s,arm,inf_U,,train_prior,0.07008622595622374,,,300,272,median
+tw30s,arm,inf_U,,n_train,4523.0,,,300,272,median
+tw30s,arm_model,inf_U,hgb,collapse_rate,0.95,0.8629948352365148,0.9828504978356043,60,57,
+tw30s,arm_model,inf_U,lstm,collapse_rate,0.9833333333333333,0.9114487027240993,0.9970518402052138,60,59,
+tw30s,arm_model,inf_U,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+tw30s,arm_model,inf_U,tcn,collapse_rate,0.9166666666666666,0.8193105798166559,0.9638795433982693,60,55,
+tw30s,arm_model,inf_U,transformer,collapse_rate,0.6833333333333333,0.5576623297382323,0.7869413244763348,60,41,
+tw30s,arm,inf_S,,collapse_rate,0.81,0.7617962081751882,0.8503651496655933,300,243,
+tw30s,arm,inf_S,,excess,-0.0003834288746727421,,,300,243,median
+tw30s,arm,inf_S,,roc_auc,0.6612643678160919,,,300,243,median
+tw30s,arm,inf_S,,pos_q50,0.029107774564970892,,,300,243,median
+tw30s,arm,inf_S,,pred_true_ratio,0.45,,,300,243,median
+tw30s,arm,inf_S,,tpr_at_fpr_1pct,0.0,,,300,243,median
+tw30s,arm,inf_S,,train_prior,0.05283842794759825,,,300,243,median
+tw30s,arm,inf_S,,n_train,4580.0,,,300,243,median
+tw30s,arm_model,inf_S,hgb,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+tw30s,arm_model,inf_S,lstm,collapse_rate,0.9833333333333333,0.9114487027240993,0.9970518402052138,60,59,
+tw30s,arm_model,inf_S,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+tw30s,arm_model,inf_S,tcn,collapse_rate,0.9666666666666667,0.886362257256914,0.990810680743802,60,58,
+tw30s,arm_model,inf_S,transformer,collapse_rate,0.1,0.046642834473884176,0.20149464723978772,60,6,
+tw30s,arm,inf_P,,collapse_rate,0.92,0.8837267595665261,0.9456531446048552,300,276,
+tw30s,arm,inf_P,,excess,-0.00018375326292718874,,,300,276,median
+tw30s,arm,inf_P,,roc_auc,0.6101734694739331,,,300,276,median
+tw30s,arm,inf_P,,pos_q50,0.04832045920193195,,,300,276,median
+tw30s,arm,inf_P,,pred_true_ratio,0.8500000000000001,,,300,276,median
+tw30s,arm,inf_P,,tpr_at_fpr_1pct,0.0,,,300,276,median
+tw30s,arm,inf_P,,train_prior,0.05291600990767845,,,300,276,median
+tw30s,arm,inf_P,,n_train,4441.0,,,300,276,median
+tw30s,arm_model,inf_P,hgb,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+tw30s,arm_model,inf_P,lstm,collapse_rate,0.9833333333333333,0.9114487027240993,0.9970518402052138,60,59,
+tw30s,arm_model,inf_P,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+tw30s,arm_model,inf_P,tcn,collapse_rate,0.8833333333333333,0.7782121197582914,0.9423227935994396,60,53,
+tw30s,arm_model,inf_P,transformer,collapse_rate,0.7333333333333333,0.6099128690331636,0.8286735999671944,60,44,
+tw30s,diff,inf_S,inf_S-inf_U,excess_median,0.0,0.0,0.0,300,,Each pair = first minus second
+tw30s,diff,inf_S,inf_S-inf_U,excess_mean,0.006345366947675332,0.0035146758535418714,0.009159516697007323,300,,Each pair = first minus second; same-sign rate 0.410
+tw30s,diff,inf_S,inf_S-inf_U,collapse_rate,-0.09666666666666666,-0.13333333333333333,-0.056666666666666664,300,,Each pair = first minus second; same-sign rate 0.137
+tw30s,diff,inf_S,inf_S-inf_U,roc_auc_median,0.06498885201043858,0.057105013498638946,0.0742101396032328,300,,Each pair = first minus second; same-sign rate 0.777
+tw30s,diff,inf_S,inf_S-inf_U,pos_q50_median,-0.005013551987135479,-0.008899356565525908,4.51314798380802e-05,300,,Each pair = first minus second; same-sign rate 0.547
+tw30s,diff,inf_S,inf_S-inf_U,pred_true_ratio_median,0.0,0.0,0.04999999999999999,300,,Each pair = first minus second
+tw30s,diff,inf_P,inf_P-inf_U,excess_median,0.0,0.0,0.0,300,,Each pair = first minus second
+tw30s,diff,inf_P,inf_P-inf_U,excess_mean,-0.0016494551327241311,-0.0038440251363314544,0.0003849893277565242,300,,Each pair = first minus second; same-sign rate 0.340
+tw30s,diff,inf_P,inf_P-inf_U,collapse_rate,0.013333333333333334,-0.03,0.056666666666666664,300,,Each pair = first minus second; same-sign rate 0.067
+tw30s,diff,inf_P,inf_P-inf_U,roc_auc_median,0.038075423468770186,0.026157237325495908,0.04455085707207623,300,,Each pair = first minus second; same-sign rate 0.663
+tw30s,diff,inf_P,inf_P-inf_U,pos_q50_median,0.02593242423608899,0.0076884444786173844,0.03670014124419921,300,,Each pair = first minus second; same-sign rate 0.553
+tw30s,diff,inf_P,inf_P-inf_U,pred_true_ratio_median,0.0,0.0,0.3999999999999999,300,,Each pair = first minus second
+tw30s,diff,inf_S,inf_S-inf_P,excess_median,0.0,0.0,0.0,300,,Each pair = first minus second
+tw30s,diff,inf_S,inf_S-inf_P,excess_mean,0.007994822080399464,0.00578696774654957,0.010246397151499508,300,,Each pair = first minus second; same-sign rate 0.437
+tw30s,diff,inf_S,inf_S-inf_P,collapse_rate,-0.11,-0.14666666666666667,-0.07333333333333333,300,,Each pair = first minus second; same-sign rate 0.137
+tw30s,diff,inf_S,inf_S-inf_P,roc_auc_median,0.04792432035268179,0.03657541361574912,0.059702973641761026,300,,Each pair = first minus second; same-sign rate 0.697
+tw30s,diff,inf_S,inf_S-inf_P,pos_q50_median,-0.009108836121776575,-0.02183269476518035,-0.003418245352804661,300,,Each pair = first minus second; same-sign rate 0.570
+tw30s,diff,inf_S,inf_S-inf_P,pred_true_ratio_median,-0.04999999999999993,-0.30000000000000004,0.0,300,,Each pair = first minus second; same-sign rate 0.500
+host,arm,inf_U,,collapse_rate,0.42333333333333334,0.36873852281072717,0.4798667327770365,300,127,
+host,arm,inf_U,,excess,0.14372782663015654,,,300,127,median
+host,arm,inf_U,,roc_auc,0.788944040044905,,,300,127,median
+host,arm,inf_U,,pos_q50,0.0017061585385818034,,,300,127,median
+host,arm,inf_U,,pred_true_ratio,0.285377358490566,,,300,127,median
+host,arm,inf_U,,tpr_at_fpr_1pct,0.5094339622641509,,,300,127,median
+host,arm,inf_U,,train_prior,0.11029390667291525,,,300,127,median
+host,arm,inf_U,,n_train,104557.0,,,300,127,median
+host,arm_model,inf_U,hgb,collapse_rate,0.9833333333333333,0.9114487027240993,0.9970518402052138,60,59,
+host,arm_model,inf_U,lstm,collapse_rate,0.0,0.0,0.06017185214208986,60,0,
+host,arm_model,inf_U,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+host,arm_model,inf_U,tcn,collapse_rate,0.03333333333333333,0.009189319256197875,0.113637742743086,60,2,
+host,arm_model,inf_U,transformer,collapse_rate,0.1,0.046642834473884176,0.20149464723978772,60,6,
+host,arm,inf_S,,collapse_rate,0.38666666666666666,0.3333235932848012,0.44287548019276246,300,116,
+host,arm,inf_S,,excess,0.1847401733795891,,,300,116,median
+host,arm,inf_S,,roc_auc,0.8409733762699537,,,300,116,median
+host,arm,inf_S,,pos_q50,0.002110098401317373,,,300,116,median
+host,arm,inf_S,,pred_true_ratio,0.2783018867924528,,,300,116,median
+host,arm,inf_S,,tpr_at_fpr_1pct,0.5283018867924528,,,300,116,median
+host,arm,inf_S,,train_prior,0.10790478329216259,,,300,116,median
+host,arm,inf_S,,n_train,106872.0,,,300,116,median
+host,arm_model,inf_S,hgb,collapse_rate,0.9333333333333333,0.8407464268680284,0.9737713012754938,60,56,
+host,arm_model,inf_S,lstm,collapse_rate,0.0,0.0,0.06017185214208986,60,0,
+host,arm_model,inf_S,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+host,arm_model,inf_S,tcn,collapse_rate,0.0,0.0,0.06017185214208986,60,0,
+host,arm_model,inf_S,transformer,collapse_rate,0.0,0.0,0.06017185214208986,60,0,
+host,arm,inf_P,,collapse_rate,0.42333333333333334,0.36873852281072717,0.4798667327770365,300,127,
+host,arm,inf_P,,excess,0.1490285109504791,,,300,127,median
+host,arm,inf_P,,roc_auc,0.7967338421061887,,,300,127,median
+host,arm,inf_P,,pos_q50,0.0007646567246410996,,,300,127,median
+host,arm,inf_P,,pred_true_ratio,0.27358490566037735,,,300,127,median
+host,arm,inf_P,,tpr_at_fpr_1pct,0.5047169811320755,,,300,127,median
+host,arm,inf_P,,train_prior,0.11029390667291525,,,300,127,median
+host,arm,inf_P,,n_train,104557.0,,,300,127,median
+host,arm_model,inf_P,hgb,collapse_rate,0.95,0.8629948352365148,0.9828504978356043,60,57,
+host,arm_model,inf_P,lstm,collapse_rate,0.0,0.0,0.06017185214208986,60,0,
+host,arm_model,inf_P,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+host,arm_model,inf_P,tcn,collapse_rate,0.016666666666666666,0.0029481597947862486,0.08855129727590061,60,1,
+host,arm_model,inf_P,transformer,collapse_rate,0.15,0.0809744058016774,0.2611458906977855,60,9,
+host,diff,inf_S,inf_S-inf_U,excess_median,1.4576269899146954e-05,7.698029020009045e-06,0.0033245106126003066,300,,Each pair = first minus second; same-sign rate 0.657
+host,diff,inf_S,inf_S-inf_U,excess_mean,0.026382488087373618,0.019726929437409137,0.03309161968788687,300,,Each pair = first minus second; same-sign rate 0.657
+host,diff,inf_S,inf_S-inf_U,collapse_rate,-0.03666666666666667,-0.06,-0.016666666666666666,300,,Each pair = first minus second; same-sign rate 0.037
+host,diff,inf_S,inf_S-inf_U,roc_auc_median,0.005252572581900816,0.0018832393499539912,0.00914918052714464,300,,Each pair = first minus second; same-sign rate 0.587
+host,diff,inf_S,inf_S-inf_U,pos_q50_median,3.0228041193219004e-06,-6.227106974833138e-07,3.7651220746263e-05,300,,Each pair = first minus second; same-sign rate 0.540
+host,diff,inf_S,inf_S-inf_U,pred_true_ratio_median,-0.0047169811320754715,-0.0047169811320754715,0.0,300,,Each pair = first minus second; same-sign rate 0.517
+host,diff,inf_P,inf_P-inf_U,excess_median,0.0,0.0,0.0,300,,Each pair = first minus second
+host,diff,inf_P,inf_P-inf_U,excess_mean,-0.0005294590333562825,-0.008314123930941946,0.006949195583597178,300,,Each pair = first minus second; same-sign rate 0.350
+host,diff,inf_P,inf_P-inf_U,collapse_rate,0.0,-0.03,0.03,300,,Each pair = first minus second
+host,diff,inf_P,inf_P-inf_U,roc_auc_median,-0.002670812331943717,-0.005090215719071867,0.002524377204788375,300,,Each pair = first minus second; same-sign rate 0.533
+host,diff,inf_P,inf_P-inf_U,pos_q50_median,-2.6028677950762358e-06,-1.832232902271392e-05,1.1092724597830094e-08,300,,Each pair = first minus second; same-sign rate 0.553
+host,diff,inf_P,inf_P-inf_U,pred_true_ratio_median,0.0,0.0,0.0,300,,Each pair = first minus second
+host,diff,inf_S,inf_S-inf_P,excess_median,1.4576269899146954e-05,7.698029020009045e-06,0.0004038231165388595,300,,Each pair = first minus second; same-sign rate 0.653
+host,diff,inf_S,inf_S-inf_P,excess_mean,0.026911947120729897,0.019650288922089258,0.03441748052855186,300,,Each pair = first minus second; same-sign rate 0.653
+host,diff,inf_S,inf_S-inf_P,collapse_rate,-0.03666666666666667,-0.06333333333333334,-0.01,300,,Each pair = first minus second; same-sign rate 0.047
+host,diff,inf_S,inf_S-inf_P,roc_auc_median,0.0077394696761766135,0.004161527409500654,0.016554674518263757,300,,Each pair = first minus second; same-sign rate 0.597
+host,diff,inf_S,inf_S-inf_P,pos_q50_median,3.708307435564813e-05,1.7152687445434072e-06,0.00014780063871916744,300,,Each pair = first minus second; same-sign rate 0.587
+host,diff,inf_S,inf_S-inf_P,pred_true_ratio_median,-0.004716981132075471,-0.0047169811320754715,0.0,300,,Each pair = first minus second; same-sign rate 0.517
+service,arm,inf_U,,collapse_rate,0.9333333333333333,0.8992769404838851,0.9564324844548416,300,280,
+service,arm,inf_U,,excess,-7.79995701666314e-06,,,300,280,median
+service,arm,inf_U,,roc_auc,0.9163166976778486,,,300,280,median
+service,arm,inf_U,,pos_q50,0.00020915565596679075,,,300,280,median
+service,arm,inf_U,,pred_true_ratio,0.014204545454545454,,,300,280,median
+service,arm,inf_U,,tpr_at_fpr_1pct,0.048295454545454544,,,300,280,median
+service,arm,inf_U,,train_prior,0.06669383963525029,,,300,280,median
+service,arm,inf_U,,n_train,105497.0,,,300,280,median
+service,arm_model,inf_U,hgb,collapse_rate,0.6666666666666666,0.5405686645211968,0.7727073847647732,60,40,
+service,arm_model,inf_U,lstm,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+service,arm_model,inf_U,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+service,arm_model,inf_U,tcn,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+service,arm_model,inf_U,transformer,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+service,arm,inf_S,,collapse_rate,0.7966666666666666,0.7475056887150938,0.8383261483583421,300,239,
+service,arm,inf_S,,excess,0.0,,,300,239,median
+service,arm,inf_S,,roc_auc,0.9456538416401701,,,300,239,median
+service,arm,inf_S,,pos_q50,0.0007178490632213652,,,300,239,median
+service,arm,inf_S,,pred_true_ratio,0.017045454545454544,,,300,239,median
+service,arm,inf_S,,tpr_at_fpr_1pct,0.3664772727272727,,,300,239,median
+service,arm,inf_S,,train_prior,0.06423517597115078,,,300,239,median
+service,arm,inf_S,,n_train,109535.0,,,300,239,median
+service,arm_model,inf_S,hgb,collapse_rate,0.6666666666666666,0.5405686645211968,0.7727073847647732,60,40,
+service,arm_model,inf_S,lstm,collapse_rate,0.65,0.5236261884175487,0.7583222559398244,60,39,
+service,arm_model,inf_S,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+service,arm_model,inf_S,tcn,collapse_rate,0.8666666666666667,0.7583484032350039,0.9308589051941303,60,52,
+service,arm_model,inf_S,transformer,collapse_rate,0.8,0.6821819419437211,0.8817149467710251,60,48,
+service,arm,inf_P,,collapse_rate,0.91,0.8722229892013517,0.9374097743945206,300,273,
+service,arm,inf_P,,excess,-7.79995701666314e-06,,,300,273,median
+service,arm,inf_P,,roc_auc,0.9234967051800964,,,300,273,median
+service,arm,inf_P,,pos_q50,0.0002628703829276797,,,300,273,median
+service,arm,inf_P,,pred_true_ratio,0.017045454545454544,,,300,273,median
+service,arm,inf_P,,tpr_at_fpr_1pct,0.05965909090909091,,,300,273,median
+service,arm,inf_P,,train_prior,0.06669383963525029,,,300,273,median
+service,arm,inf_P,,n_train,105497.0,,,300,273,median
+service,arm_model,inf_P,hgb,collapse_rate,0.6666666666666666,0.5405686645211968,0.7727073847647732,60,40,
+service,arm_model,inf_P,lstm,collapse_rate,0.9333333333333333,0.8407464268680284,0.9737713012754938,60,56,
+service,arm_model,inf_P,rf,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+service,arm_model,inf_P,tcn,collapse_rate,0.95,0.8629948352365148,0.9828504978356043,60,57,
+service,arm_model,inf_P,transformer,collapse_rate,1.0,0.93982814785791,0.9999999999999998,60,60,
+service,diff,inf_S,inf_S-inf_U,excess_median,0.0,0.0,0.0,300,,Each pair = first minus second
+service,diff,inf_S,inf_S-inf_U,excess_mean,0.03851091409363786,0.022871282490018473,0.05528454364960101,300,,Each pair = first minus second; same-sign rate 0.413
+service,diff,inf_S,inf_S-inf_U,collapse_rate,-0.13666666666666666,-0.19,-0.09,300,,Each pair = first minus second; same-sign rate 0.137
+service,diff,inf_S,inf_S-inf_U,roc_auc_median,0.0050235987531236925,0.0024954015049878375,0.01058114765955398,300,,Each pair = first minus second; same-sign rate 0.647
+service,diff,inf_S,inf_S-inf_U,pos_q50_median,7.333887650547477e-06,1.6914148957359035e-07,6.665315845566511e-05,300,,Each pair = first minus second; same-sign rate 0.573
+service,diff,inf_S,inf_S-inf_U,pred_true_ratio_median,0.0,0.0,0.0,300,,Each pair = first minus second
+service,diff,inf_P,inf_P-inf_U,excess_median,0.0,0.0,0.0,300,,Each pair = first minus second
+service,diff,inf_P,inf_P-inf_U,excess_mean,0.005264677963772408,0.0011178539808097488,0.010357369213006168,300,,Each pair = first minus second; same-sign rate 0.297
+service,diff,inf_P,inf_P-inf_U,collapse_rate,-0.023333333333333334,-0.04,-0.01,300,,Each pair = first minus second; same-sign rate 0.023
+service,diff,inf_P,inf_P-inf_U,roc_auc_median,0.0003215755571376322,-0.0009308098045298641,0.001430603498401739,300,,Each pair = first minus second; same-sign rate 0.507
+service,diff,inf_P,inf_P-inf_U,pos_q50_median,3.4342004909441607e-29,-7.373661102413762e-08,2.663745718844615e-07,300,,Each pair = first minus second; same-sign rate 0.500
+service,diff,inf_P,inf_P-inf_U,pred_true_ratio_median,0.0,0.0,0.0,300,,Each pair = first minus second
+service,diff,inf_S,inf_S-inf_P,excess_median,0.0,0.0,0.0,300,,Each pair = first minus second
+service,diff,inf_S,inf_S-inf_P,excess_mean,0.03324623612986546,0.018516605331833778,0.049161082232051095,300,,Each pair = first minus second; same-sign rate 0.367
+service,diff,inf_S,inf_S-inf_P,collapse_rate,-0.11333333333333333,-0.16333333333333333,-0.06666666666666667,300,,Each pair = first minus second; same-sign rate 0.123
+service,diff,inf_S,inf_S-inf_P,roc_auc_median,0.0038783741855414333,0.0023063885943891416,0.0059297805911600054,300,,Each pair = first minus second; same-sign rate 0.627
+service,diff,inf_S,inf_S-inf_P,pos_q50_median,1.0208962982649616e-05,3.175026499928694e-07,7.75314347762901e-05,300,,Each pair = first minus second; same-sign rate 0.590
+service,diff,inf_S,inf_S-inf_P,pred_true_ratio_median,0.0,0.0,0.0,300,,Each pair = first minus second

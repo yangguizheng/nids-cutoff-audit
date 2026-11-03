@@ -1,0 +1,29 @@
+group,factor,metric,value,ci_lo,ci_hi,n_seeds,source
+CIC17,segment,excess,0.26593,0.260742,0.272349,20,results_v2/wp1_swings.csv
+CIC17,padding,excess,0.039346,0.0326,0.048387,20,results_v2/wp1_swings.csv
+CIC17,model,excess,0.234509,0.223423,0.245215,20,results_v2/wp1_swings.csv
+CIC17,segment,roc_auc,0.283047,0.280512,0.285581,20,results_v2/wp1_swings.csv
+CIC17,padding,roc_auc,0.001768,0.000483,0.003834,20,results_v2/wp1_swings.csv
+CIC17,model,roc_auc,0.029959,0.028541,0.031402,20,results_v2/wp1_swings.csv
+CIC18,segment,excess,0.11887,0.093455,0.148888,20,results_v2/wp1_swings.csv
+CIC18,padding,excess,0.043184,0.019282,0.070313,20,results_v2/wp1_swings.csv
+CIC18,model,excess,0.395579,0.373652,0.417,20,results_v2/wp1_swings.csv
+CIC18,segment,roc_auc,0.105274,0.096056,0.114031,20,results_v2/wp1_swings.csv
+CIC18,padding,roc_auc,0.015563,0.004897,0.030523,20,results_v2/wp1_swings.csv
+CIC18,model,roc_auc,0.191949,0.16428,0.220229,20,results_v2/wp1_swings.csv
+UNSW f0,segment,excess,0.413782,0.410436,0.417132,20,R2_table9_unsw_perfold.csv
+UNSW f0,segment,roc_auc,0.198387,0.194066,0.202789,20,R2_table9_unsw_perfold.csv
+UNSW f0,padding,excess,0.023025,0.020437,0.025751,20,R2_table9_unsw_perfold.csv
+UNSW f0,padding,roc_auc,0.001987,0.000561,0.005882,20,R2_table9_unsw_perfold.csv
+UNSW f0,model,excess,0.169724,0.164121,0.17603,20,R2_table9_unsw_perfold.csv
+UNSW f0,model,roc_auc,0.131167,0.127224,0.136528,20,R2_table9_unsw_perfold.csv
+UNSW f1,segment,excess,0.283725,0.272463,0.295015,20,R2_table9_unsw_perfold.csv
+UNSW f1,segment,roc_auc,0.129538,0.12472,0.134311,20,R2_table9_unsw_perfold.csv
+UNSW f1,padding,excess,0.003555,0.001197,0.013868,20,R2_table9_unsw_perfold.csv
+UNSW f1,padding,roc_auc,0.000982,0.00046,0.005489,20,R2_table9_unsw_perfold.csv
+UNSW f1,model,excess,0.116913,0.09995,0.137395,20,R2_table9_unsw_perfold.csv
+UNSW f1,model,roc_auc,0.059053,0.051533,0.066389,20,R2_table9_unsw_perfold.csv
+UNSW f0,seed_sd,roc_auc,0.009323,,,20,R2_seedsd_perfold.csv
+UNSW f1,seed_sd,roc_auc,0.014245,,,20,R2_seedsd_perfold.csv
+CIC17,seed_sd,roc_auc,0.007319,,,20,R2_seedsd_perfold.csv
+CIC18,seed_sd,roc_auc,0.048004,,,20,R2_seedsd_perfold.csv

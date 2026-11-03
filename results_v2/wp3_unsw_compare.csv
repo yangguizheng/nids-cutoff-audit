@@ -1,0 +1,133 @@
+section,fold,key,n,old_or_new,value,extra
+collapse,f0,ALL,225,old_5seed,0.2,"45/225 [0.153, 0.257]"
+collapse,f0,host,75,old_5seed,0.0,"0/75 [0.000, 0.049]"
+collapse,f0,service,75,old_5seed,0.0,"0/75 [0.000, 0.049]"
+collapse,f0,tw30s,75,old_5seed,0.6,"45/75 [0.487, 0.703]"
+med_ptr,f0,ALL,225,old_5seed,1.1724137931034482,
+med_auc,f0,ALL,225,old_5seed,0.9997019410779387,
+med_pos_q50,f0,ALL,225,old_5seed,0.9997900724411011,
+winrate_excess,f0,lstm,45,old_5seed,0.0,
+winrate_excess,f0,tcn,45,old_5seed,0.0,
+winrate_excess,f0,transformer,45,old_5seed,0.34074074074074073,
+winrate_excess,f0,rf,45,old_5seed,0.47407407407407404,
+winrate_excess,f0,hgb,45,old_5seed,0.18518518518518515,
+winrate_aplift,f0,lstm,45,old_5seed,0.0,
+winrate_aplift,f0,tcn,45,old_5seed,0.0,
+winrate_aplift,f0,transformer,45,old_5seed,0.2962962962962963,
+winrate_aplift,f0,rf,45,old_5seed,0.5185185185185186,
+winrate_aplift,f0,hgb,45,old_5seed,0.18518518518518515,
+winrate_roc_auc,f0,lstm,45,old_5seed,0.0,
+winrate_roc_auc,f0,tcn,45,old_5seed,0.0,
+winrate_roc_auc,f0,transformer,45,old_5seed,0.2518518518518518,
+winrate_roc_auc,f0,rf,45,old_5seed,0.5185185185185186,
+winrate_roc_auc,f0,hgb,45,old_5seed,0.2296296296296296,
+collapse,f1,ALL,225,old_5seed,0.06222222222222222,"14/225 [0.037, 0.102]"
+collapse,f1,host,75,old_5seed,0.0,"0/75 [0.000, 0.049]"
+collapse,f1,service,75,old_5seed,0.0,"0/75 [0.000, 0.049]"
+collapse,f1,tw30s,75,old_5seed,0.18666666666666668,"14/75 [0.115, 0.289]"
+med_ptr,f1,ALL,225,old_5seed,1.0048348106365834,
+med_auc,f1,ALL,225,old_5seed,0.9985367764369607,
+med_pos_q50,f1,ALL,225,old_5seed,0.9983886480331421,
+winrate_excess,f1,lstm,45,old_5seed,0.0,
+winrate_excess,f1,tcn,45,old_5seed,0.0,
+winrate_excess,f1,transformer,45,old_5seed,0.26666666666666666,
+winrate_excess,f1,rf,45,old_5seed,0.5777777777777777,
+winrate_excess,f1,hgb,45,old_5seed,0.15555555555555556,
+winrate_aplift,f1,lstm,45,old_5seed,0.0,
+winrate_aplift,f1,tcn,45,old_5seed,0.0,
+winrate_aplift,f1,transformer,45,old_5seed,0.24444444444444444,
+winrate_aplift,f1,rf,45,old_5seed,0.3111111111111111,
+winrate_aplift,f1,hgb,45,old_5seed,0.4444444444444444,
+winrate_roc_auc,f1,lstm,45,old_5seed,0.0,
+winrate_roc_auc,f1,tcn,45,old_5seed,0.0,
+winrate_roc_auc,f1,transformer,45,old_5seed,0.26666666666666666,
+winrate_roc_auc,f1,rf,45,old_5seed,0.3111111111111111,
+winrate_roc_auc,f1,hgb,45,old_5seed,0.4222222222222222,
+collapse,all,ALL,450,old_5seed,0.13111111111111112,"59/450 [0.103, 0.165]"
+collapse,all,host,150,old_5seed,0.0,"0/150 [0.000, 0.025]"
+collapse,all,service,150,old_5seed,0.0,"0/150 [0.000, 0.025]"
+collapse,all,tw30s,150,old_5seed,0.3933333333333333,"59/150 [0.319, 0.473]"
+med_ptr,all,ALL,450,old_5seed,1.0584762597292863,
+med_auc,all,ALL,450,old_5seed,0.9994901426542269,
+med_pos_q50,all,ALL,450,old_5seed,0.9994515358184242,
+winrate_excess,all,lstm,90,old_5seed,0.0,
+winrate_excess,all,tcn,90,old_5seed,0.0,
+winrate_excess,all,transformer,90,old_5seed,0.3037037037037037,
+winrate_excess,all,rf,90,old_5seed,0.5259259259259259,
+winrate_excess,all,hgb,90,old_5seed,0.17037037037037037,
+winrate_aplift,all,lstm,90,old_5seed,0.0,
+winrate_aplift,all,tcn,90,old_5seed,0.0,
+winrate_aplift,all,transformer,90,old_5seed,0.27037037037037037,
+winrate_aplift,all,rf,90,old_5seed,0.41481481481481486,
+winrate_aplift,all,hgb,90,old_5seed,0.3148148148148148,
+winrate_roc_auc,all,lstm,90,old_5seed,0.0,
+winrate_roc_auc,all,tcn,90,old_5seed,0.0,
+winrate_roc_auc,all,transformer,90,old_5seed,0.25925925925925924,
+winrate_roc_auc,all,rf,90,old_5seed,0.41481481481481486,
+winrate_roc_auc,all,hgb,90,old_5seed,0.3259259259259259,
+collapse,f0,ALL,900,new_20seed,0.2,"180/900 [0.175, 0.227]"
+collapse,f0,host,300,new_20seed,0.0,"0/300 [0.000, 0.013]"
+collapse,f0,service,300,new_20seed,0.0,"0/300 [0.000, 0.013]"
+collapse,f0,tw30s,300,new_20seed,0.6,"180/300 [0.544, 0.654]"
+med_ptr,f0,ALL,900,new_20seed,1.1819941970762193,
+med_auc,f0,ALL,900,new_20seed,0.9996974179552257,
+med_pos_q50,f0,ALL,900,new_20seed,0.9997878670692444,
+winrate_excess,f0,lstm,180,new_20seed,0.0,
+winrate_excess,f0,tcn,180,new_20seed,0.005555555555555556,
+winrate_excess,f0,transformer,180,new_20seed,0.3416666666666667,
+winrate_excess,f0,rf,180,new_20seed,0.43333333333333335,
+winrate_excess,f0,hgb,180,new_20seed,0.21944444444444444,
+winrate_aplift,f0,lstm,180,new_20seed,0.0,
+winrate_aplift,f0,tcn,180,new_20seed,0.0,
+winrate_aplift,f0,transformer,180,new_20seed,0.33240740740740743,
+winrate_aplift,f0,rf,180,new_20seed,0.5212962962962964,
+winrate_aplift,f0,hgb,180,new_20seed,0.14629629629629629,
+winrate_roc_auc,f0,lstm,180,new_20seed,0.0,
+winrate_roc_auc,f0,tcn,180,new_20seed,0.0,
+winrate_roc_auc,f0,transformer,180,new_20seed,0.2935185185185185,
+winrate_roc_auc,f0,rf,180,new_20seed,0.5268518518518519,
+winrate_roc_auc,f0,hgb,180,new_20seed,0.1796296296296296,
+collapse,f1,ALL,900,new_20seed,0.03888888888888889,"35/900 [0.028, 0.054]"
+collapse,f1,host,300,new_20seed,0.0,"0/300 [0.000, 0.013]"
+collapse,f1,service,300,new_20seed,0.0,"0/300 [0.000, 0.013]"
+collapse,f1,tw30s,300,new_20seed,0.11666666666666667,"35/300 [0.085, 0.158]"
+med_ptr,f1,ALL,900,new_20seed,1.0048348106365834,
+med_auc,f1,ALL,900,new_20seed,0.998459074303177,
+med_pos_q50,f1,ALL,900,new_20seed,0.9982787519693375,
+winrate_excess,f1,lstm,180,new_20seed,0.0,
+winrate_excess,f1,tcn,180,new_20seed,0.0,
+winrate_excess,f1,transformer,180,new_20seed,0.32222222222222224,
+winrate_excess,f1,rf,180,new_20seed,0.5805555555555556,
+winrate_excess,f1,hgb,180,new_20seed,0.09722222222222222,
+winrate_aplift,f1,lstm,180,new_20seed,0.0,
+winrate_aplift,f1,tcn,180,new_20seed,0.0,
+winrate_aplift,f1,transformer,180,new_20seed,0.3,
+winrate_aplift,f1,rf,180,new_20seed,0.29444444444444445,
+winrate_aplift,f1,hgb,180,new_20seed,0.40555555555555556,
+winrate_roc_auc,f1,lstm,180,new_20seed,0.0,
+winrate_roc_auc,f1,tcn,180,new_20seed,0.0,
+winrate_roc_auc,f1,transformer,180,new_20seed,0.31666666666666665,
+winrate_roc_auc,f1,rf,180,new_20seed,0.3055555555555556,
+winrate_roc_auc,f1,hgb,180,new_20seed,0.37777777777777777,
+collapse,all,ALL,1800,new_20seed,0.11944444444444445,"215/1800 [0.105, 0.135]"
+collapse,all,host,600,new_20seed,0.0,"0/600 [0.000, 0.006]"
+collapse,all,service,600,new_20seed,0.0,"0/600 [0.000, 0.006]"
+collapse,all,tw30s,600,new_20seed,0.35833333333333334,"215/600 [0.321, 0.397]"
+med_ptr,all,ALL,1800,new_20seed,1.0584082156611039,
+med_auc,all,ALL,1800,new_20seed,0.9994651481631516,
+med_pos_q50,all,ALL,1800,new_20seed,0.999332085943073,
+winrate_excess,all,lstm,360,new_20seed,0.0,
+winrate_excess,all,tcn,360,new_20seed,0.002777777777777778,
+winrate_excess,all,transformer,360,new_20seed,0.33194444444444443,
+winrate_excess,all,rf,360,new_20seed,0.5069444444444444,
+winrate_excess,all,hgb,360,new_20seed,0.15833333333333333,
+winrate_aplift,all,lstm,360,new_20seed,0.0,
+winrate_aplift,all,tcn,360,new_20seed,0.0,
+winrate_aplift,all,transformer,360,new_20seed,0.3162037037037037,
+winrate_aplift,all,rf,360,new_20seed,0.4078703703703704,
+winrate_aplift,all,hgb,360,new_20seed,0.27592592592592596,
+winrate_roc_auc,all,lstm,360,new_20seed,0.0,
+winrate_roc_auc,all,tcn,360,new_20seed,0.0,
+winrate_roc_auc,all,transformer,360,new_20seed,0.3050925925925926,
+winrate_roc_auc,all,rf,360,new_20seed,0.41620370370370374,
+winrate_roc_auc,all,hgb,360,new_20seed,0.27870370370370373,

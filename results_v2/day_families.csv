@@ -1,0 +1,70 @@
+dataset,day,family,n_flows,attack
+cic17,0,BENIGN,371749,False
+cic17,1,BENIGN,315031,False
+cic17,1,FTP-Patator,3973,True
+cic17,1,SSH-Patator,2980,True
+cic17,1,FTP-Patator - Attempted,11,True
+cic17,1,SSH-Patator - Attempted,8,True
+cic17,2,BENIGN,319216,False
+cic17,2,DoS Hulk,158469,True
+cic17,2,DoS GoldenEye,7567,True
+cic17,2,DoS slowloris,4001,True
+cic17,2,DoS Slowhttptest - Attempted,3369,True
+cic17,2,DoS Slowhttptest,1742,True
+cic17,2,DoS slowloris - Attempted,1731,True
+cic17,2,DoS Hulk - Attempted,593,True
+cic17,2,DoS GoldenEye - Attempted,80,True
+cic17,2,Heartbleed,11,True
+cic17,3,BENIGN,360264,False
+cic17,3,Web Attack - Brute Force - Attempted,1214,True
+cic17,3,Web Attack - XSS - Attempted,652,True
+cic17,3,Web Attack - Brute Force,151,True
+cic17,3,Infiltration,32,True
+cic17,3,Web Attack - XSS,27,True
+cic17,3,Infiltration - Attempted,16,True
+cic17,3,Web Attack - Sql Injection,12,True
+cic17,4,BENIGN,291433,False
+cic17,4,PortScan,159151,True
+cic17,4,DDoS,95123,True
+cic17,4,Bot - Attempted,1470,True
+cic17,4,Bot,738,True
+cic18,0,BENIGN,5609622,False
+cic18,0,FTP-BRUTEFORCE - ATTEMPTED,193354,True
+cic18,0,SSH-BRUTEFORCE,94197,True
+cic18,1,BENIGN,5370678,False
+cic18,1,DOS GOLDENEYE,22560,True
+cic18,1,DOS SLOWLORIS,8490,True
+cic18,1,DOS GOLDENEYE - ATTEMPTED,4301,True
+cic18,1,DOS SLOWLORIS - ATTEMPTED,2280,True
+cic18,2,BENIGN,5484470,False
+cic18,2,DOS HULK,1803160,True
+cic18,2,FTP-BRUTEFORCE - ATTEMPTED,105520,True
+cic18,2,DOS HULK - ATTEMPTED,86,True
+cic18,3,BENIGN,5763765,False
+cic18,3,DDOS-LOIC-HTTP,289328,True
+cic18,3,DDOS-LOIC-UDP,797,True
+cic18,3,DDOS-LOIC-UDP - ATTEMPTED,80,True
+cic18,4,BENIGN,5879929,False
+cic18,4,DDOS-HOIC,1082293,True
+cic18,4,DDOS-LOIC-UDP,1730,True
+cic18,4,DDOS-LOIC-UDP - ATTEMPTED,171,True
+unsw,0,Benign,1074634,False
+unsw,0,Fuzzers,6045,True
+unsw,0,Exploits,5622,True
+unsw,0,Generic,2405,True
+unsw,0,Reconnaissance,2155,True
+unsw,0,DoS,622,True
+unsw,0,Shellcode,280,True
+unsw,0,Analysis,267,True
+unsw,0,Backdoor,43,True
+unsw,0,Worms,20,True
+unsw,1,Benign,1108481,False
+unsw,1,Exploits,37121,True
+unsw,1,Fuzzers,27770,True
+unsw,1,Generic,17246,True
+unsw,1,Reconnaissance,14919,True
+unsw,1,DoS,5349,True
+unsw,1,Backdoor,4615,True
+unsw,1,Shellcode,2101,True
+unsw,1,Analysis,959,True
+unsw,1,Worms,138,True

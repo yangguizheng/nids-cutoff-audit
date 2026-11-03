@@ -1,0 +1,27 @@
+batch,db,n_runs,seeds,n_seeds,datasets,splits,n_cells,models,cudnn_benchmark,analysis_plan_commit,retrained,producing_script,used_in_section,note
+v1-main-sweep,results/main.db,3120,0-19,20,CIC17-Mon+Tue+Wed+Thu+Fri,"cross_day,random",36,"hgb,lstm,rf,tcn,transformer",,,No,"(v1, run_pilot.py)",(not used to support conclusions),"v1 main sweep across three datasets; cudnn.benchmark was not explicitly disabled, so reruns are not bitwise reproducible"
+v1-cic18-sweep,results/cic18.db,2580,0-9,10,"CIC18-5d,CIC18-8d","cross_day,random",36,"hgb,lstm,rf,tcn,transformer",,,No,"(v1, run_pilot.py)",(not used to support conclusions),v1 CIC18 hyperparameter sweep (including exploratory combinations of T and cells)
+v1-unsw,results/unsw.db,450,0-4,5,UNSW-2d,cross_day_pair,9,"hgb,lstm,rf,tcn,transformer",,,No,"(v1, run_pilot.py)",(not used to support conclusions),v1 UNSW hyperparameter sweep
+v1-det,results/det_cic17.db,900,0-19,20,CIC17-Mon+Tue+Wed+Thu+Fri,cross_day,9,"hgb,lstm,rf,tcn,transformer",,,No,"(v1, run_pilot.py)",(not used to support conclusions),v1 deterministic-rerun **control** database: used by WP2e as the legacy database for the gate; not cited directly
+v1-det,results/det_cic18.db,900,0-19,20,CIC18-5d,cross_day,9,"hgb,lstm,rf,tcn,transformer",,,No,"(v1, run_pilot.py)",(not used to support conclusions),Same as above; target of WP2e --verify-db
+v1-det,results/det_unsw.db,450,0-4,5,UNSW-2d,cross_day_pair,9,"hgb,lstm,rf,tcn,transformer",,,No,"(v1, run_pilot.py)",(not used to support conclusions),Same as above; target of WP2e --verify-db
+v1-probe,results/runs.db,108,0-2,3,CIC17-Mon+Tue+Wed+Thu+Fri,cross_day,9,"lstm,rf,tcn,transformer",,,No,"(v1, early probe)",(not used to support conclusions),Early smoke test
+v1-probe,results/repro1.db,1,0,1,CIC18-5d,cross_day,1,tcn,,,No,"(v1, single-run reproducibility check)",(not used to support conclusions),"Residual from a single-run reproducibility check, 1 row"
+v2-main,results_v2/det_v2_cic17.db,900,0-19,20,CIC17-Mon+Tue+Wed+Thu+Fri,cross_day,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp2e.sh,"§5, §6.1, §6.2",Main database: 9 cells × 5 models × 20 seeds
+v2-main,results_v2/det_v2_cic18.db,900,0-19,20,CIC18-5d,cross_day,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp2e.sh,"§5, §6.1, §6.2",Main database: 9 cells × 5 models × 20 seeds
+v2-main,results_v2/det_v2_unsw.db,450,0-4,5,UNSW-2d,cross_day_pair,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp2e.sh,"§5, §6.1, §6.2",Main database: two folds × 9 cells × 5 models × 5 seeds
+v2-nocw,results_v2/det_nocw_cic17.db,900,0-19,20,CIC17-Mon+Tue+Wed+Thu+Fri,cross_day,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp2a.sh,§6.1 (M1 mechanism),Arm without class weighting (--class-weight none)
+v2-nocw,results_v2/det_nocw_cic18.db,900,0-19,20,CIC18-5d,cross_day,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp2a.sh,§6.1 (M1 mechanism),Arm without class weighting
+v2-nocw,results_v2/det_nocw_unsw.db,450,0-4,5,UNSW-2d,cross_day_pair,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp2a.sh,§6.1 (M1 mechanism),Arm without class weighting
+v2-splits,results_v2/splits_cic18.db,900,0-9,10,CIC18-5d,"block_strat,cross_day_ext",9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp2c.sh,§6.2 (split sensitivity),"Two split types, block_strat / cross_day_ext, 10 seeds"
+v2-val-dump,results_v2/det_cic18_val.db,900,0-19,20,CIC18-5d,cross_day,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp2d.sh + queue_wp2d_tail.sh,§6.2.4 (Saerens/BBSE calibration),--dump-val: additionally saves validation-fold scores
+v2-val-dump,results_v2/det_cic17_val.db,900,0-19,20,CIC17-Mon+Tue+Wed+Thu+Fri,cross_day,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp4c.sh,§6.2.4,--dump-val
+v2-val-dump,results_v2/det_unsw_val.db,450,0-4,5,UNSW-2d,cross_day_pair,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp4c.sh,§6.2.4,--dump-val
+v2-unsw-s20,results_v2/det_unsw_s20.db,1800,0-19,20,UNSW-2d,cross_day_pair,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp3.sh,§6.2 (seed-count sensitivity),UNSW supplemented to 20 seeds
+v2-nd,results_v2/nd_cic17.db,900,0-19,20,CIC17-Mon+Tue+Wed+Thu+Fri,cross_day_nd,9,"hgb,lstm,rf,tcn,transformer",0,e0dc336,Yes,scripts_v2/queue_wp4b.sh,§6.2.7 (false positives on zero-attack days),--split cross_day_nd --zero-days 0
+v2-e1,results_v2/e1/e1_runs.db,0,,0,,,0,,,,Yes,scripts_v2/queue_e1.sh,§6.2.6 (within-dataset intervention),E1: three arms in the Inf group (inf_U / inf_S / inf_P)
+v2-probe,results_v2/_probe/probe_det_cic17.db,5,0,1,CIC17-Mon+Tue+Wed+Thu+Fri,cross_day,1,"hgb,lstm,rf,tcn,transformer",,,Yes,(one-off smoke test),(not used to support conclusions),5 smoke-test runs to check pipeline operability
+v2-probe,results_v2/_probe/probe_det_cic18.db,5,0,1,CIC18-5d,cross_day,1,"hgb,lstm,rf,tcn,transformer",,,Yes,(one-off smoke test),(not used to support conclusions),5 smoke-test runs
+v2-probe,results_v2/_probe/probe_det_unsw.db,5,0,1,UNSW-2d,cross_day_pair,1,"hgb,lstm,rf,tcn,transformer",,,Yes,(one-off smoke test),(not used to support conclusions),5 smoke-test runs
+"TOTAL citable (v2, cudnn.benchmark=0)",(total),10350,,0,,,0,,0,,Yes,,All numbers in the main text,All manuscript numbers must come only from these databases
+TOTAL not used to support conclusions (v1 + probes),(total),8524,,0,,,0,,,,No,,(not used to support conclusions),Historical and gate-control comparison only; reruns are not bitwise reproducible

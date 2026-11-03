@@ -1,0 +1,4 @@
+dataset,cell,padding,n_keys_train,n_keys_test,n_unique_keys_seen,unique_key_seen_rate,n_test_sequences,sequence_weighted_key_seen_rate
+CIC18,host/non_padded/T20,non_padded,5267,1991,748,0.3756906077348066,41316,0.7003340110368864
+CIC18,host/repeat_last/T20,repeat_last,10569,3821,843,0.22062287359330018,43401,0.6710674869242644
+CIC18,host/zero_mask/T20,zero_mask,10569,3821,843,0.22062287359330018,43401,0.6710674869242644

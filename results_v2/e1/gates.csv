@@ -1,0 +1,7 @@
+group,test_day,route,n_pos_test_seq,pass_30,n_test_seq
+Web,6,tw30s,0,False,2880
+Web,6,host,12,False,313184
+Web,6,service,12,False,659048
+Inf,8,tw30s,16,False,1370
+Inf,8,host,2178,True,341891
+Inf,8,service,5566,True,676411

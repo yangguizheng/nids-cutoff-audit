@@ -1,0 +1,1201 @@
+run_id,family,n_pos,share_pos,seen_in_train
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s0,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s1,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s2,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s3,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s4,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s5,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s6,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s7,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s8,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s9,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s0,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s1,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s2,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s3,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s4,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s5,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s6,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s7,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s8,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s9,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s0,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s1,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s2,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s3,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s4,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s5,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s6,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s7,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s8,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|rf|s9,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s0,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s1,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s2,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s3,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s4,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s5,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s6,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s7,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s8,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s9,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s0,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s1,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s2,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s3,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s4,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s5,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s6,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s7,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s8,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.0004594180704441041,True
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s9,DDOS-HOIC,6523,0.9989280245022971,False
+c18s2|host/non_padded/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,4,0.0006125574272588055,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/repeat_last/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s0,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s1,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s2,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s3,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s4,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s5,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s6,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s7,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s8,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.00045927740355174526,True
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s9,DDOS-HOIC,6525,0.9989283527250459,False
+c18s2|host/zero_mask/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,4,0.000612369871402327,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s0,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s1,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s2,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s3,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s4,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s5,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s6,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s7,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s8,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|hgb|s9,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s0,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s1,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s2,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s3,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s4,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s5,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s6,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s7,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s8,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|lstm|s9,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s0,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s1,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s2,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s3,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s4,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s5,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s6,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s7,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s8,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|rf|s9,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s0,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s1,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s2,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s3,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s4,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s5,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s6,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s7,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s8,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|tcn|s9,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s0,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s1,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s2,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s3,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s4,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s5,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s6,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s7,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s8,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,4,0.0009908347783007183,True
+c18s2|service/non_padded/T20|cross_day_ext|transformer|s9,DDOS-HOIC,4033,0.9990091652216992,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|hgb|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|lstm|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|rf|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|tcn|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/repeat_last/T20|cross_day_ext|transformer|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|hgb|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|lstm|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|rf|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|tcn|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s0,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s1,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s2,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s3,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s4,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s5,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s6,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s7,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s8,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,4,0.0009905894006934125,True
+c18s2|service/zero_mask/T20|cross_day_ext|transformer|s9,DDOS-HOIC,4034,0.9990094105993066,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|hgb|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|lstm|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|rf|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|tcn|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/non_padded/T20|cross_day_ext|transformer|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|hgb|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|lstm|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|rf|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|tcn|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/repeat_last/T20|cross_day_ext|transformer|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|hgb|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|lstm|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|rf|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|tcn|s9,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s0,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s0,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s1,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s1,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s2,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s2,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s3,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s3,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s4,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s4,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s5,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s5,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s6,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s6,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s7,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s7,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s8,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s8,DDOS-HOIC,109,0.9478260869565217,False
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s9,DDOS-LOIC-UDP - ATTEMPTED,3,0.02608695652173913,True
+c18s2|tw30s/by_start/tail/zero_mask/T20|cross_day_ext|transformer|s9,DDOS-HOIC,109,0.9478260869565217,False

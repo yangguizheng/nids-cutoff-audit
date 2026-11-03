@@ -1,0 +1,185 @@
+path,md5,n_rows,producing_script,commit,bytes
+.gitignore,c4e7b692050bf0b62a7ce88302685787,14,(release documentation),public-snapshot,139
+CITATION.cff,1bf5f3389c09ed76512e7a1dfc6f71d7,20,(release documentation),public-snapshot,754
+DATA_DICTIONARY.md,9fe06a992ab5c175465973f355f36380,145,(release documentation),public-snapshot,10389
+LICENSE,ac370e107b1087ea37245328518d33cb,30,(release documentation),public-snapshot,1446
+README.md,5d1b74784d6206fa6e754e5a4b1ddb4b,126,(release documentation),public-snapshot,8240
+data/features_cic17.json,26699008da8944499cb8c028aa66cee0,79,(feature list),public-snapshot,1564
+data/features_unsw_noTTL.json,f3ce764bd4dc6ec03c96de7c8a032718,48,(feature list),public-snapshot,1017
+lit/d1_calls.csv,e64b717af0db15e96063d0253ca499ed,50,(literature screening table),public-snapshot,5160
+lit/extraction.csv,c5bb41d2b2422ecd9e9d7935cae563c1,49,(literature screening table),public-snapshot,8757
+lit/screening_flow.csv,02a98aef34bc203dd88aa9c79a1e7a62,11,(literature screening table),public-snapshot,1337
+lit/zero_day_extraction.csv,852e7403a60fe6648f4f42e4250ea7d4,15,(literature screening table),public-snapshot,8946
+preregistration/ANALYSIS_PLAN_ADDENDUM_EN.md,3f1694a2b363a66e7fc4d7d6cffc5a24,287,(release documentation),public-snapshot,25198
+preregistration/ANALYSIS_PLAN_EN.md,39e5d2ad1cef74cd988ee292b424a0dc,228,(release documentation),public-snapshot,15990
+preregistration/HASHES.txt,811b061b5848324c9285ad279de2e10e,36,(release documentation),public-snapshot,1943
+requirements.txt,ab56be3b2b9d322c6004a4fdb6326f51,10,(release documentation),public-snapshot,202
+results/bench0_cic18_pairs.json,cd8257e98395653b628708b1e16da2e4,1136,(release documentation),public-snapshot,26601
+results/cic18.db,6ac5788fa2a389e476dfeae4241da168,2580,(release documentation),public-snapshot,892928
+results/det_cic17.db,90d95a2c57b54d7de133172933c4f253,900,(release documentation),public-snapshot,344064
+results/det_cic18.db,934cd4913deb80153742181721743b53,900,(release documentation),public-snapshot,323584
+results/det_unsw.db,055f3299f9ee433d4fe74c68422fc855,450,(release documentation),public-snapshot,184320
+results/main.db,f0475e92a9de780279c7c4d124711e7c,3120,(release documentation),public-snapshot,1228800
+results/repro1.db,f69479d0b0788353ebda0c91f4ba21c8,1,(release documentation),public-snapshot,12288
+results/rules_per_run.csv,03ea7d6a6f7dbfe8d13f870d11852154,1170,(release documentation),public-snapshot,406619
+results/runs.db,1712c743c63a272b5f252fe21d732609,108,(release documentation),public-snapshot,53248
+results/thr_cic18.json,a58a845d5a3f001d88e6bfa2d9bb89ea,1,(release documentation),public-snapshot,497290
+results/unsw.db,1810432b924bc4fc4bc6c099f2bcfd79,450,(release documentation),public-snapshot,176128
+results_v2/ANALYSIS_PLAN.md,2c2cf2d74ef7fd3a792ba34a954a0d88,228,(hand-written; registered before any run),public-snapshot,12657
+results_v2/ANALYSIS_PLAN_ADDENDUM.md,10ae4a6a6c2588346023b7b5e6de037c,329,(see RUN_LEDGER.csv and README.md),public-snapshot,19597
+results_v2/RUN_LEDGER.csv,f7ac1ea134df0f0045034677bdfb8897,26,(see RUN_LEDGER.csv and README.md),public-snapshot,5553
+results_v2/day_families.csv,47f4b2f7b140e4403deceedc7b0ff00d,69,(see RUN_LEDGER.csv and README.md),public-snapshot,2256
+results_v2/det_cic17_val.db,b7aad5e17a9879c1edd7d744c24397ae,900,(see RUN_LEDGER.csv and README.md),public-snapshot,561152
+results_v2/det_cic18_val.db,991a21021977793f7109e90e3b43cc87,900,(see RUN_LEDGER.csv and README.md),public-snapshot,536576
+results_v2/det_nocw_cic17.db,19fed6d1e77b0aab02efd8cfec8c001d,900,(see RUN_LEDGER.csv and README.md),public-snapshot,552960
+results_v2/det_nocw_cic18.db,58871ef91836e4839bba490ea0947418,900,(see RUN_LEDGER.csv and README.md),public-snapshot,528384
+results_v2/det_nocw_unsw.db,fe29cbbbab07a8b45e63919ec12b0e17,1800,(see RUN_LEDGER.csv and README.md),public-snapshot,1093632
+results_v2/det_unsw_s20.db,a4e7e341dc32829a243255306a1f64dd,1800,(see RUN_LEDGER.csv and README.md),public-snapshot,1114112
+results_v2/det_unsw_val.db,858e18f773ab32c24d44635c22b80880,450,(see RUN_LEDGER.csv and README.md),public-snapshot,290816
+results_v2/det_v2_cic17.db,020db65ecd6648b3f977f9a73c94d5ad,900,(see RUN_LEDGER.csv and README.md),public-snapshot,557056
+results_v2/det_v2_cic18.db,ce47c11d4d453381dde8d3ca5ecdae7d,900,(see RUN_LEDGER.csv and README.md),public-snapshot,532480
+results_v2/det_v2_unsw.db,6b1d6d668bcf69d01c3882d2913b1f0b,450,(see RUN_LEDGER.csv and README.md),public-snapshot,286720
+results_v2/e1/e1_contrasts.csv,063aa387e655d08673d0f9417d27768e,285,(see RUN_LEDGER.csv and README.md),public-snapshot,27866
+results_v2/e1/e1_family.csv,2a083d81882f261a882925465f85f4bc,4500,(see RUN_LEDGER.csv and README.md),public-snapshot,664693
+results_v2/e1/e1_runs.db,50cc605491c4459f926c2541fffc7008,2700,(see RUN_LEDGER.csv and README.md),public-snapshot,1691648
+results_v2/e1/gates.csv,59dc3828c670521c68826bb6d78790bf,6,(see RUN_LEDGER.csv and README.md),public-snapshot,222
+results_v2/e1/inventory.csv,29d47ee2c037ed747774b813e49f655a,141,(see RUN_LEDGER.csv and README.md),public-snapshot,6983
+results_v2/e1/inventory_day.csv,4688d7fd993f11a7490c7fb9c1c7276e,10,(see RUN_LEDGER.csv and README.md),public-snapshot,2598
+results_v2/final/RUN_LEDGER.csv,2445b01d605c77176cc0e16501f84006,16,scripts_v2/make_run_ledger_v2.py,public-snapshot,1649
+results_v2/final/Supplemental_Tables.xlsx,563bd9a33c391f1746c03beb1cd3f6e3,,scripts_v2/supplemental_tables.py; scripts_v2/r8_xlsx.py,public-snapshot,173786
+results_v2/nd_cic17.db,2b6f30a7b76b4a7d47010561a99a80eb,900,(see RUN_LEDGER.csv and README.md),public-snapshot,573440
+results_v2/normal_day_fpr_v2.json,bb0ec6968a432b706a61516c99a99861,7315,scripts_v2/normal_day_fpr_v2.py,public-snapshot,181118
+results_v2/normal_day_fpr_v2_s20.json,6c3510de5e721ddd63e4f026b4357450,1,(see RUN_LEDGER.csv and README.md),public-snapshot,1053973
+results_v2/normal_day_fpr_v2_s34.json,c35a11ed7eb6bde91c8c469e802e4bcb,4884,(see RUN_LEDGER.csv and README.md),public-snapshot,120898
+results_v2/r1_val_unsw.db,c6d32166c68e53d955b19866f434f17d,675,(see RUN_LEDGER.csv and README.md),public-snapshot,438272
+results_v2/r2/R1_gate_log.csv,50fc363d5b26446d7a1dd4f43bc6b6df,29,scripts_v2/r2_unsw_perfold.py,public-snapshot,4076
+results_v2/r2/R1_val_unsw.csv,94b88b7c152ef28d51d65df4e8565c6c,15,scripts_v2/r2_unsw_perfold.py,public-snapshot,1083
+results_v2/r2/R2_eta2.csv,66ddc20763af995ad6315eaebdca1075,54,scripts_v2/r2_unsw_perfold.py,public-snapshot,6967
+results_v2/r2/R2_fig3b_data.csv,382aee3aae4d304227710b1acf1bc3b7,28,scripts_v2/r2_unsw_perfold.py,public-snapshot,2157
+results_v2/r2/R2_seedsd_perfold.csv,43b43dfce5d98a10055adba1780b2541,4,scripts_v2/r2_unsw_perfold.py,public-snapshot,193
+results_v2/r2/R2_table9_unsw_perfold.csv,d8f4f05fa1c900abf5f9cd253e0dfd83,6,scripts_v2/r2_unsw_perfold.py,public-snapshot,670
+results_v2/r2/R3_fig5_inset_families.csv,7665a3d34904c1acb97e04f313635760,11,scripts_v2/r2_unsw_perfold.py,public-snapshot,613
+results_v2/r3/R6_early_stopping.csv,c329209c030aecdcb517e3843bc6a5c3,6,scripts_v2/r6_early.py; scripts_v2/r7_cic17.py; scripts_v2/r7_diff.py,public-snapshot,1016
+results_v2/r3/wp1_eta2.csv,1c17f9df9db7c91c23e4ef292950c036,18,scripts_v2/r6_early.py; scripts_v2/r7_cic17.py; scripts_v2/r7_diff.py,public-snapshot,1301
+results_v2/r3/wp1_swing_ratios.csv,b8fb4580b98ee811bf13c2e64eae75e7,8,scripts_v2/r6_early.py; scripts_v2/r7_cic17.py; scripts_v2/r7_diff.py,public-snapshot,593
+results_v2/r3/wp1_swings.csv,f4d5c96ecad6023e343c0bcf8f79d0a9,27,scripts_v2/r6_early.py; scripts_v2/r7_cic17.py; scripts_v2/r7_diff.py,public-snapshot,3164
+results_v2/r3/wp1_tau.csv,cc2a9b73f14c3ffa119a638d981c45a2,12,scripts_v2/r6_early.py; scripts_v2/r7_cic17.py; scripts_v2/r7_diff.py,public-snapshot,927
+results_v2/r3/wp1_winrate.csv,a06e5aab78f45e39b8a5a66b9588f699,75,scripts_v2/r6_early.py; scripts_v2/r7_cic17.py; scripts_v2/r7_diff.py,public-snapshot,4766
+results_v2/r4/A2_host_key_coverage_detail.csv,8cf64fe90202c24b2c3a3d39003d6352,3,scripts_v2/r4_offline_checks.py,public-snapshot,424
+results_v2/r4/A2_number_check.csv,33cb5edf36759dfe2ccc3b751688dc58,8,scripts_v2/r4_offline_checks.py,public-snapshot,2504
+results_v2/r4/B1_family_by_route_fold.csv,a93c72cd4f8334e9f9c4c61961a15074,24,scripts_v2/r4_offline_checks.py,public-snapshot,8206
+results_v2/r4/B2_cic17_family_auc.csv,ec60d9b59ecda9e66d5216598fad1fb1,8,scripts_v2/r4_offline_checks.py,public-snapshot,2788
+results_v2/rules_per_run_v2.csv,a9ed807922dd29a0421522bc6380fc72,3414,(see RUN_LEDGER.csv and README.md),public-snapshot,737420
+results_v2/splits_cic18.db,455cd44d08a4d5340b04da63ab4f331a,900,(see RUN_LEDGER.csv and README.md),public-snapshot,544768
+results_v2/wp1_eta2.csv,62c6ae5b142df2340a80de7ca887eff5,72,scripts_v2/wp1_robustness.py --only 1e,public-snapshot,5006
+results_v2/wp1_pairs.csv,e6094b686adab94e8d4ca072188e6669,120,scripts_v2/wp1_robustness.py --only 1c,public-snapshot,13896
+results_v2/wp1_swing_ratios.csv,3fad34b9f4e493af95a20dd5e0af46e6,32,scripts_v2/wp1_robustness.py --only 1d,public-snapshot,2091
+results_v2/wp1_swings.csv,12a1f7a2f5dca533fe5071b74681da6a,108,scripts_v2/wp1_robustness.py --only 1d,public-snapshot,12324
+results_v2/wp1_tau.csv,144a82b7c883e29e5f0affa4d81c8af2,48,scripts_v2/wp1_robustness.py --only 1b,public-snapshot,3422
+results_v2/wp1_tau_s20.csv,ea5b0ef65890930653805052a6bd9997,48,(see RUN_LEDGER.csv and README.md),public-snapshot,3462
+results_v2/wp1_winrate.csv,3b079bb034b8a0a3a73d08b45a04e3ce,300,scripts_v2/wp1_robustness.py --only 1a,public-snapshot,17944
+results_v2/wp1_winrate_s20.csv,e6013e9d6e80a0fed7defc84401ddeb8,300,(see RUN_LEDGER.csv and README.md),public-snapshot,23186
+results_v2/wp2a_collapse.csv,8c3e689d076ba18e875b353d52ea2219,27,(see RUN_LEDGER.csv and README.md),public-snapshot,3800
+results_v2/wp2a_cw_paired.csv,edc56be94eb269d161b9b97717f4601e,2250,(see RUN_LEDGER.csv and README.md),public-snapshot,965793
+results_v2/wp2b_family.csv,3e781dd5345e497483cec72c15b662df,9425,(see RUN_LEDGER.csv and README.md),public-snapshot,1901349
+results_v2/wp2b_runpool.csv,48fe3ad7af75238d2d7b52c34544555f,1800,(see RUN_LEDGER.csv and README.md),public-snapshot,205334
+results_v2/wp2c_prior.csv,315d824766349439073c6254c54533ff,18,(see RUN_LEDGER.csv and README.md),public-snapshot,2596
+results_v2/wp2c_s2_family.csv,7a642c2986ec78fbcb94a26f73bb23b0,1200,(see RUN_LEDGER.csv and README.md),public-snapshot,119114
+results_v2/wp2c_splits.csv,b98805ad780ef305b7c8b834fbc14542,36,(see RUN_LEDGER.csv and README.md),public-snapshot,5880
+results_v2/wp2e_gate_log.csv,b1c5a09f027318d6005d8a38b4ae5888,8,(see RUN_LEDGER.csv and README.md),public-snapshot,1132
+results_v2/wp2e_identity_report.csv,766a73b1860d040fd91e500192533231,6,(see RUN_LEDGER.csv and README.md),public-snapshot,435
+results_v2/wp3_unsw_compare.csv,9a2be6f0ca1a28ba80484150ac8189be,132,(see RUN_LEDGER.csv and README.md),public-snapshot,7278
+results_v2/wp4_clean_run.csv,3fc5a0029e66175ce609b041bc81009f,375,(see RUN_LEDGER.csv and README.md),public-snapshot,234085
+results_v2/wp4_clean_window_list.csv,4697ecf7bf549013c904dc8a8e25df24,4,(see RUN_LEDGER.csv and README.md),public-snapshot,256
+results_v2/wp4_clean_windows.csv,5b1372942b723bab1551cfd189096aae,60,(see RUN_LEDGER.csv and README.md),public-snapshot,9881
+results_v2/wp4_gap_stats.csv,53e8243934d6840204afbc787bb1b792,4,(see RUN_LEDGER.csv and README.md),public-snapshot,408
+results_v2/wp4_prior.csv,079bea934c3ce332e5722d3a5bf09663,45,(see RUN_LEDGER.csv and README.md),public-snapshot,7368
+results_v2/wp4_tpr.csv,a555bc3ce1a8a9d02812f14e34413cf3,2250,(see RUN_LEDGER.csv and README.md),public-snapshot,325578
+results_v2/wp4_tpr_by_cell.csv,b93f038014a810710d47c88e5f6df109,27,(see RUN_LEDGER.csv and README.md),public-snapshot,3600
+results_v2/wp4_zeroday.csv,1f8f5a30a518340a43577a06cf27ebd6,900,(see RUN_LEDGER.csv and README.md),public-snapshot,223088
+results_v2/wp4_zeroday_by_cell.csv,1bd22ff40162065e2659bb6b8da8fa2b,45,(see RUN_LEDGER.csv and README.md),public-snapshot,4487
+results_v2/wp4_zeroday_two_axes.csv,21299054d60e1f67b41878d158a1975f,9,(see RUN_LEDGER.csv and README.md),public-snapshot,1166
+results_v2/wp4d_rules.csv,9a1e7f43a4ff0621924c80207ae198ce,3150,(see RUN_LEDGER.csv and README.md),public-snapshot,1819669
+results_v2/wp4d_rules_chk5.csv,1a32ecbaa01db1b0fcc282ce535fc7bf,450,(see RUN_LEDGER.csv and README.md),public-snapshot,253572
+results_v2/wp4d_rules_unsw_s20.csv,4d48db95969ca42852b20f021a043ee2,1350,(see RUN_LEDGER.csv and README.md),public-snapshot,637713
+results_v2/wp4d_rules_unsw_s20_val.csv,bfd3221f10e14d7bb77f23f729dc76fb,1800,(see RUN_LEDGER.csv and README.md),public-snapshot,1016095
+results_v2/wp4d_summary.csv,88e9a03c347ec4f0a26bc2738931e778,60,(see RUN_LEDGER.csv and README.md),public-snapshot,8269
+results_v2/wp4d_summary_chk5.csv,5e752bb9896c9fd90f71a553c59f4745,15,(see RUN_LEDGER.csv and README.md),public-snapshot,2312
+results_v2/wp4d_summary_unsw_s20.csv,665de58326af07134a0260cc754492dc,15,(see RUN_LEDGER.csv and README.md),public-snapshot,1803
+results_v2/wp4d_summary_unsw_s20_val.csv,d4a7571b2a2d7550e54ac61308d1f74b,15,(see RUN_LEDGER.csv and README.md),public-snapshot,2310
+results_v2/wp5_j1.csv,79df99d320034eebad48a9a02aabfe8c,24,scripts_v2/wp5_j1.py,public-snapshot,3910
+results_v2/wp7_prior_bins.csv,52bb5cbd73bd80b9b5bec1c6b12b6629,2250,(see RUN_LEDGER.csv and README.md),public-snapshot,367646
+results_v2/wp7_prior_bins_crosstab.csv,19ddee773bfed3423542ed483502b538,7,(see RUN_LEDGER.csv and README.md),public-snapshot,180
+results_v2/wp7_t4_pairs.csv,58ef787224bd2dad8429e6e7c6e6b2a7,24,(see RUN_LEDGER.csv and README.md),public-snapshot,1191
+results_v2/wp7_t4_shift.csv,a6c5838cffb3ab3d31be8318085c6b0a,4,(see RUN_LEDGER.csv and README.md),public-snapshot,162
+scripts/build_cic18.py,a7356407b5b4e0d856139c504f1bca79,101,(source file),public-snapshot,3509
+scripts/build_unsw.py,13cb87ed79aae9db44bfd5d6dd656005,94,(source file),public-snapshot,2773
+scripts/eval_rules.py,750f7aca8d712d6c977fbd5cadb776c0,438,(source file),public-snapshot,14340
+scripts/run_pilot.py,71d40329a6fdcf5451d76dc08b386d82,532,(source file),public-snapshot,24098
+scripts_v2/acc_wp0.py,3aff1fe67bfa6e9fe830fdf61bd98bba,24,(hand-written),public-snapshot,1016
+scripts_v2/acc_wp1.py,4ed3510e77847f8057fd83ebdf01ba29,70,(hand-written),public-snapshot,2928
+scripts_v2/build_manifest.py,559afb39db41806e3a2df1e373f40e59,126,(hand-written),public-snapshot,4604
+scripts_v2/build_refs_csv.py,351700c9aab22b1fc37a5de2153bb3ac,140,(source file),public-snapshot,8615
+scripts_v2/cite_crosscheck.py,2bc078782aa37d6ed43514bd2a480edc,74,(source file),public-snapshot,2638
+scripts_v2/day_families.py,93e9eb96bb207b52ba800d93720bd84f,137,(hand-written),public-snapshot,4725
+scripts_v2/diff_2e.py,0122958867c92527d4a920cd0567bcba,113,(hand-written),public-snapshot,4160
+scripts_v2/e1_contrasts.py,712ba9ba5ad7511be964c1c9dbf82ba4,294,(hand-written),public-snapshot,12634
+scripts_v2/e1_dump.py,4e51bb5c4f5a227fbc74f7d86a74a73c,400,(hand-written),public-snapshot,18544
+scripts_v2/e1_inventory.py,91212cf4d8a8b63c57145c67ef199950,141,(hand-written),public-snapshot,5372
+scripts_v2/e1_summary.py,6f9bbf210c3172d6b89b1a76688f8570,323,(hand-written),public-snapshot,17524
+scripts_v2/figures_final.py,0cb37f2a50fa05211fbb8ca4e839ddee,590,(source file),public-snapshot,24433
+scripts_v2/figures_v2.py,95bcb84d393faea373140cd9fd2d4c42,291,(hand-written),public-snapshot,12315
+scripts_v2/lit_check_doi.py,eb8e49f5b15af7b5da5ef64c70fd1a41,79,(hand-written),public-snapshot,3067
+scripts_v2/lit_d1_evidence.py,8edecc543b0c810697a224d040a9e771,64,(hand-written),public-snapshot,2672
+scripts_v2/lit_extract.py,f2c474b6eff115d7be05b03d7f45be99,262,(hand-written),public-snapshot,10743
+scripts_v2/lit_fulltext.py,bee49313fe978879dfd18b606f80c39c,178,(hand-written),public-snapshot,7193
+scripts_v2/lit_numbers.py,c70f589715c0dd2c289593f035bcea1f,123,(hand-written),public-snapshot,5907
+scripts_v2/lit_retrieve.py,a8a70efbb0012010874df9838346d529,211,(hand-written),public-snapshot,7345
+scripts_v2/make_run_ledger.py,bd26435e9de99b57f8e435c6cdf3e9e8,155,(hand-written),public-snapshot,7764
+scripts_v2/make_run_ledger_v2.py,e42721525add78a12684e6c35c59bf15,119,(source file),public-snapshot,5209
+scripts_v2/normal_day_fpr_v2.py,aed1b8200170d1ce1fc2ec7b21ecca5a,225,cp scripts/normal_day_fpr.py + metadata fields,public-snapshot,9705
+scripts_v2/numbers_report.py,244fab9c73645ca2f286da7e0de89a8e,506,(hand-written),public-snapshot,25426
+scripts_v2/q5_thr_oracle.py,86ffb469a3197b7eda826460b298d5f8,76,(hand-written),public-snapshot,2427
+scripts_v2/qc_headline.py,6ea72beea146dff3661fe373f0eacded,88,(hand-written),public-snapshot,3003
+scripts_v2/queue_wp2e.sh,d2d604e9afcca966f091cd9b657351c1,38,(hand-written),public-snapshot,1532
+scripts_v2/r2_unsw_perfold.py,a12fdfc740071d2f53cfe7a6f7997fa1,197,(source file),public-snapshot,7791
+scripts_v2/r4_offline_checks.py,d0b27274d7e96967ecfd52dc734e9e81,210,(source file),public-snapshot,10320
+scripts_v2/r6_early.py,661c5c5a59762f41698a49da16e81b93,53,(source file),public-snapshot,1824
+scripts_v2/r7_cic17.py,5e2252de9bffcc9ec0d204473becb5f6,20,(source file),public-snapshot,769
+scripts_v2/r7_diff.py,934d5ec4cc48e1ecaf072ff7626cd0f5,87,(source file),public-snapshot,4274
+scripts_v2/r7_figs.py,fb91717e48b979b53bd6242ca110a893,54,(source file),public-snapshot,1791
+scripts_v2/r8_xlsx.py,98e5003482ebcf8006db891cd7c803ff,7,(source file),public-snapshot,265
+scripts_v2/r9_fig4.py,63c14f941ee36873eb9f9414f304bc3d,22,(source file),public-snapshot,788
+scripts_v2/refs_check.py,88bfe96474c14a21adc0e172dcdd703e,116,(source file),public-snapshot,3657
+scripts_v2/refs_compare.py,35c428e878b4440827cff8921102538f,239,(source file),public-snapshot,8658
+scripts_v2/refs_diff.py,b24e311aee0cdf09f779cb64d6e9e60b,63,(source file),public-snapshot,1965
+scripts_v2/refs_doi.py,6b5c519756cf99d0d576e93bf60bec1f,114,(source file),public-snapshot,3969
+scripts_v2/seqmodels_v2.py,6a094a0054716e93a46ede43601a75fb,125,(hand-written),public-snapshot,4515
+scripts_v2/splits_v2.py,d0ca9e2ffc21f1a02252f9d4fbf3c9f4,97,(hand-written),public-snapshot,3604
+scripts_v2/supplemental_tables.py,d7ab18cda10cd616d7dbdbded99ffc5d,680,(source file),public-snapshot,32714
+scripts_v2/t1_core.py,e9acfc3bb2511e7624dedb02457d0122,339,(source file),public-snapshot,15623
+scripts_v2/t1_extra.py,f09259ca5979fd8e369bf24bac254832,252,(source file),public-snapshot,10305
+scripts_v2/t1_fix_extra.py,6acb633028869fdeec2319e098478f37,128,(source file),public-snapshot,4855
+scripts_v2/t1_rules.py,e8011991e777636f4f49d5227c6ba93e,158,(source file),public-snapshot,5748
+scripts_v2/verify_r8.py,0d952c9e9ca94498d387401e80ed4b5a,14,(source file),public-snapshot,452
+scripts_v2/wp1_robustness.py,82836b137871b68453a120b9ef63d71e,513,(hand-written),public-snapshot,21474
+scripts_v2/wp1b_winrate_s20.py,973cbbac1ad66a6f0f6a90c653b96d15,116,(hand-written),public-snapshot,4211
+scripts_v2/wp2a_pair.py,0dcb9fa7c1bb8dd0fbe2ba4fb657f5e6,192,(hand-written),public-snapshot,7637
+scripts_v2/wp2b_family.py,b0c55686ace3c9265bccdc6c304a07d0,284,(hand-written),public-snapshot,12580
+scripts_v2/wp2c_report.py,7ef77817fef234fa8f4eb22b8c71cf9c,224,(hand-written),public-snapshot,8745
+scripts_v2/wp2c_s2_family.py,9015cb48341d14f538a5f0e8cb6e26e8,88,(hand-written),public-snapshot,3248
+scripts_v2/wp2d_rules.py,97b4bc347cee4716df8812a63beb1c8f,244,(hand-written),public-snapshot,9926
+scripts_v2/wp2e_dump.py,94d2bc336d165aca3b7bddbf12494c88,589,(hand-written),public-snapshot,25419
+scripts_v2/wp2e_summary.py,5ad653002ae042f3486583bd64a0a452,126,(hand-written),public-snapshot,5736
+scripts_v2/wp3_merge.py,685a67ba17f80a62e1f03341e0bf67f6,62,(hand-written),public-snapshot,2319
+scripts_v2/wp3_unsw_compare.py,9641623edb4cdc2a7ef995683691a741,137,(hand-written),public-snapshot,5141
+scripts_v2/wp4_clean.py,ab190a21e8ab286b8028385dc93bfa44,405,(hand-written),public-snapshot,17801
+scripts_v2/wp4_prior.py,98b722f55e393f800715c3ff1371800e,209,(hand-written),public-snapshot,8477
+scripts_v2/wp4_tpr.py,57616faa008e37f0cf57480f972eab3a,126,(hand-written),public-snapshot,4463
+scripts_v2/wp4_zeroday.py,512d73afbb4594247a6571f1fd1a4ce7,393,(hand-written),public-snapshot,19107
+scripts_v2/wp4d_rules_v2.py,2cc5bc805ce8abd552d9a52681ad3113,368,(hand-written),public-snapshot,15401
+scripts_v2/wp5_j1.py,955d335655377d6144eb969cd34b3f32,163,(hand-written),public-snapshot,6396
+scripts_v2/wp7_prior_bins.py,3713fb2046c0d0532db59cae782c1441,92,(hand-written),public-snapshot,3163
+scripts_v2/wp7_t4_numbers.py,3a4d7b796921ae69e56416f051c30ff9,154,(hand-written),public-snapshot,6092
+src/data/seqdiff.py,4986fc9619d146cd9d8c83be2d071b27,549,(source file),public-snapshot,20355
+src/models/zoo.py,8e8b1d247ce0ec451675af321ed266b3,127,(source file),public-snapshot,4112

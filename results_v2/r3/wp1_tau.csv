@@ -1,0 +1,13 @@
+dataset,fold,route_subset,pair,aggregation,tau,exact_perm_p,boot_frac_tau_lt0,boot_tau_ci_lo,boot_tau_ci_hi,n_groups
+CIC17,-,all,excess~roc_auc,winrate,0.6,0.233333,0.0001,0.2,0.6,180
+CIC17,-,all,excess~roc_auc,mean,0.8,0.083333,0.0,0.8,1.0,180
+CIC17,-,all,excess~aplift,winrate,0.6,0.233333,0.0,0.4,0.6,180
+CIC17,-,all,excess~aplift,mean,0.4,0.483333,0.0,0.4,0.8,180
+CIC17,-,tw30s,excess~roc_auc,winrate,0.777778,0.083333,0.0,0.629941,1.0,60
+CIC17,-,tw30s,excess~roc_auc,mean,0.8,0.083333,0.0,0.6,0.8,60
+CIC17,-,tw30s,excess~aplift,winrate,0.881917,0.05,0.0,0.801784,0.881917,60
+CIC17,-,tw30s,excess~aplift,mean,0.4,0.483333,0.0,0.4,0.4,60
+CIC17,-,host+service,excess~roc_auc,winrate,0.0,1.0,0.1505,-0.2,0.2,120
+CIC17,-,host+service,excess~roc_auc,mean,0.8,0.083333,0.0,0.6,1.0,120
+CIC17,-,host+service,excess~aplift,winrate,0.2,0.816667,0.0226,0.0,0.4,120
+CIC17,-,host+service,excess~aplift,mean,0.8,0.083333,0.0,0.6,1.0,120

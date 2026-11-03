@@ -1,0 +1,17 @@
+﻿batch,dataset,n_runs,seeds,cudnn_benchmark,retrained(yes/no),used_in_manuscript_section
+v2-core,CIC-IDS2017,900,0-19,no,yes,"Tables 4, 5, 8, 9, 11, 12, 14; Figs 2-4"
+v2-core,CSE-CIC-IDS2018,900,0-19,no,yes,"Tables 4-9, 11, 12, 14; Figs 2-5"
+v2-core,NF-UNSW-NB15 (2 folds),1800,0-19,no,yes,"Tables 4, 5, 6, 9-12, 14; Fig 3"
+v2-nocw,CIC-IDS2017,900,0-19,no,yes,"Table 6 (M1), Supplemental Table S7"
+v2-nocw,CSE-CIC-IDS2018,900,0-19,no,yes,"Table 6 (M1), Supplemental Table S7"
+v2-nocw,NF-UNSW-NB15 (2 folds),1800,0-19,no,yes,Table 6 (M1)
+v2-splits,"CSE-CIC-IDS2018 (S1 block-stratified, S2 extended)",900,0-9,no,yes,"Table 6 (M2), Supplemental Table S11"
+v2-val-dump,CIC-IDS2017,900,0-19,no,yes,"Table 12 (validation cut-off), Supplemental Table S8"
+v2-val-dump,CSE-CIC-IDS2018,900,0-19,no,yes,"Table 12 (validation cut-off), Supplemental Table S8"
+v2-val-dump,NF-UNSW-NB15 (2 folds),450,0-4,no,yes,Table 12 (validation cut-off row only; 20-seed val scores not dumped)
+v2-nd,CIC-IDS2017 Monday (attack-free),900,0-19,no,yes,Table 13; Supplemental Table S9
+v2-nd,NF-UNSW-NB15 23 Jan 2015 (attack-free),1800,0-19,no,yes,Table 13
+v2-e1,CSE-CIC-IDS2018 (seen-family / unseen-family / prior-matched),2700,0-19,no,yes,"Results (E1), Supplemental Table S12"
+v1-unsupported,"CIC-IDS2017 + CSE-CIC-IDS2018 + NF-UNSW-NB15 (v1 sweeps, probes)",8524,0-19 / 0-9 / 0-4,not fixed,yes,Does not support any conclusions (v1 did not fix cudnn.benchmark and is not bitwise reproducible)
+TOTAL citable,(total),15750,,no,yes,All numbers in the main text
+TOTAL not used to support conclusions,(total),8524,,not fixed,yes,Does not support any conclusions

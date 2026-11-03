@@ -1,0 +1,7 @@
+dataset,fold,model,n_runs,n_cells,n_seeds,best_epoch_median,best_epoch_min,best_epoch_max_lo,best_epoch_max_hi,best_epoch_eq1_n,best_epoch_eq1_frac,n_epochs_median,n_epochs_min,n_epochs_max,n_full20,full20_frac,n_early,source_db,source_table
+NF-UNSW-NB15,0,lstm,180,9,20,8.0,1,15,20,9,0.05,13.0,6,20,25,0.1388888888888889,155,results_v2/det_unsw_s20.db,runs
+NF-UNSW-NB15,0,tcn,180,9,20,5.0,1,15,20,5,0.027777777777777776,10.0,6,20,8,0.044444444444444446,172,results_v2/det_unsw_s20.db,runs
+NF-UNSW-NB15,0,transformer,180,9,20,9.0,1,15,20,3,0.016666666666666666,14.0,6,20,52,0.28888888888888886,128,results_v2/det_unsw_s20.db,runs
+NF-UNSW-NB15,1,lstm,180,9,20,3.0,1,15,20,18,0.1,8.0,6,20,28,0.15555555555555556,152,results_v2/det_unsw_s20.db,runs
+NF-UNSW-NB15,1,tcn,180,9,20,3.5,1,15,20,12,0.06666666666666667,8.5,6,20,32,0.17777777777777778,148,results_v2/det_unsw_s20.db,runs
+NF-UNSW-NB15,1,transformer,180,9,20,4.0,1,15,20,46,0.25555555555555554,9.0,6,20,1,0.005555555555555556,179,results_v2/det_unsw_s20.db,runs
