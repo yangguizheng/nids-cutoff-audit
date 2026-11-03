@@ -1,0 +1,12 @@
+stage,n,note
+L0_raw_hits,1833,Crossref: 15 records + OpenAlex: 3 records + arXiv: 1 record
+L0_dedup,661,"Deduplicated first by DOI, then by title"
+L1_dataset_mention,340,CIC-IDS2017 / CSE-CIC-IDS2018 / UNSW-NB15 appeared in the title or abstract
+L2_sequence_candidate,187,L1 and contained terms such as sequence/temporal/LSTM/GRU/transformer/window
+L2_oa_pdf_available,120,"Of these, OpenAlex reported an open-access PDF, the title contained sequence-related terms, and publication was after 2018"
+L3_fulltext_obtained,47,Actually downloaded and successfully processed with pdftotext (publisher access was denied or links were invalid for the remaining 73 papers)
+L3_coded,45,"Of these, 1 non-English paper (adib2025, E4) was excluded and 1 duplicate record was removed"
+L3_coded_with_manual,49,Added 4 more papers to the manual reading set (FlowTransformer / Time Matters / DSDAN / Staudemeyer)
+L3_d1_yes,12,D1 = yes (8 from the systematic pool + 4 from the manual set); each has an explicit construction sentence
+L3_d1_no,5,"The authors explicitly state that no cross-time-step sequence is constructed, or the constructed sequence is at the packet, graph, or feature level"
+L3_d1_insufficient,32,Could not be determined after reading the full text (only capture temporal dependencies is stated); excluded from the denominator under E3

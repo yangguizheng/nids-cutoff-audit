@@ -1,0 +1,36 @@
+PREREGISTRATION PROVENANCE AND SHA-256 HASHES
+
+Analysis plan
+  Registered private commit: e0dc336489eecebfacd77d30ed8a7ba1effd1cd8
+  Commit timestamp: 2026-11-01T22:32:43+08:00
+  Original path: results_v2/ANALYSIS_PLAN.md
+  Original SHA-256: 65d9ffe6f4b0169ed6b6f60bbac64aa80cebc63dbaf3edd4756adb6b1ef9f070
+  Public Chinese edition: results_v2/ANALYSIS_PLAN.md
+  Public SHA-256: ad7fc942f068ee233d601c6061bb59e0de6761120d6c6445b934653c41b8fb59
+  Public English translation: preregistration/ANALYSIS_PLAN_EN.md
+  Translation SHA-256: f8e6f8f64beb4768e1eb7b874f9828745661c661f7245319c323e0a5824a327a
+
+E1 analysis-plan addendum
+  Registered private commit: c1ced61e568223f607f086fffc02616252f65395
+  Commit timestamp: 2026-11-02T22:14:08+08:00
+  Original path: results_v2/ANALYSIS_PLAN_ADDENDUM.md
+  Original SHA-256: 0fce64d542c5fd101b0ff31bc3b79d617ff398c621657d189838fa5d4506f40e
+  Public Chinese edition: results_v2/ANALYSIS_PLAN_ADDENDUM.md
+  Public SHA-256: 55e1ced9641bdfdffd70f0d53b7b58bc70f25abdd279eab32d685454ff2d46a5
+  Public English translation: preregistration/ANALYSIS_PLAN_ADDENDUM_EN.md
+  Translation SHA-256: 1ea145dc9bdcb0577d2c03789a08a7b6614ffdd770d887ec27094574021259b7
+
+PUBLIC-EDITION REDACTIONS
+
+The registered commits belong to the private research repository and are not
+included in this independent public snapshot. The public Chinese editions are
+redacted copies of the registered files: internal workflow instructions,
+internal coordination records and local filesystem paths
+were removed. Analytical definitions, experimental grids, statistical methods,
+and decision thresholds are unchanged. Consequently, the public SHA-256 values
+differ from the original registered-file hashes. The original hashes above
+allow verification against the private history; the public hashes verify the
+files distributed here.
+
+The English files are translations of the public Chinese editions. The Chinese
+original is authoritative.

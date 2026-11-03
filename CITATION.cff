@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or the associated derived results, please cite the manuscript."
+title: "Ranking Well, Deciding Badly: Disentangling Score Ranking from Cut-off Placement in Cross-Day Flow-Sequence Intrusion Detection"
+authors:
+  - family-names: "Yang"
+    given-names: "Guizheng"
+    email: "ygz@hcnu.edu.cn"
+    orcid: "https://orcid.org/0009-0006-6585-7015"
+  - family-names: "Luo"
+    given-names: "Chengdong"
+    email: "lcd@hcnu.edu.cn"
+    orcid: "https://orcid.org/0009-0002-7519-886X"
+  - family-names: "Tan"
+    given-names: "Kejiu"
+    email: "tankejiu@hcnu.edu.cn"
+    orcid: "https://orcid.org/0009-0004-3140-8452"
+version: "1.0.0-peerj-submission"
+date-released: "2026-11-03"
+license: MIT
+type: software
