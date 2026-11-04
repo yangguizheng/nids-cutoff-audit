@@ -23,7 +23,9 @@ LAB = {"lstm": "LSTM", "tcn": "TCN", "transformer": "Transformer", "rf": "RF", "
 HATCH = {"lstm": "", "tcn": "///", "transformer": "...", "rf": "\\\\\\", "hgb": "xx"}
 ARMS = [("CIC17", "-", "CIC-IDS2017"), ("CIC18", "-", "CSE-CIC-IDS2018"),
         ("UNSW", "f0", "NF-UNSW-NB15 fold 0"), ("UNSW", "f1", "NF-UNSW-NB15 fold 1")]
-GREY = {"excess": "0.15", "roc_auc": "0.75"}
+BLUE, ORANGE, AQUA = "#2a78d6", "#eb6834", "#1baf7a"
+DS_COL = {"CIC17": BLUE, "CIC18": ORANGE, "UNSW": AQUA, "UNSW f0": AQUA, "UNSW f1": AQUA}
+GREY = {"excess": BLUE, "roc_auc": ORANGE}
 SIZE = dict(base=8.0, tick=8.0, lab=8.5, panel=9.5, note=8.0)
 
 
@@ -187,7 +189,7 @@ def fig1(wr, tau, out):
             lo = np.array([s.loc[mm, "wilson_lo"] * 100 for mm in MODELS])
             hi = np.array([s.loc[mm, "wilson_hi"] * 100 for mm in MODELS])
             ax.bar(x + (k - 0.5) * w, v, w, label=mlab,
-                   color=GREY[m], edgecolor="black", linewidth=0.5,
+                   color=GREY[m], edgecolor="white", linewidth=0.5,
                    yerr=[np.maximum(v - lo, 0), np.maximum(hi - v, 0)],
                    capsize=1.8, error_kw=dict(lw=0.7, capthick=0.7, ecolor="black"))
         ax.axhline(20, color="black", lw=1.0, ls=(0, (4, 2, 1, 2)))
@@ -230,14 +232,14 @@ def fig2(out, db="results_v2/det_v2_cic18.db"):
     jit = rng.normal(0, 0.012, len(ok))
     for x0, row in zip(jit, ok.itertuples()):
         ax.plot([0 + x0, 1 + x0], [row.macro_f1 * 100, row.macro_f1_oracle * 100],
-                color="black" if row.collapsed else "0.78",
+                color=ORANGE if row.collapsed else "#a9c8ef",
                 lw=0.45 if row.collapsed else 0.3,
                 alpha=0.7 if row.collapsed else 0.45, zorder=3 if row.collapsed else 1)
     ax.scatter(np.zeros(len(ok)) + jit, ok.macro_f1 * 100, s=3.5,
-               c=np.where(ok.collapsed, "black", "white"), edgecolors="0.35",
+               c=np.where(ok.collapsed, ORANGE, BLUE), edgecolors="none",
                linewidths=0.3, zorder=4)
     ax.scatter(np.ones(len(ok)) + jit, ok.macro_f1_oracle * 100, s=3.5,
-               c=np.where(ok.collapsed, "black", "white"), edgecolors="0.35",
+               c=np.where(ok.collapsed, ORANGE, BLUE), edgecolors="none",
                linewidths=0.3, zorder=4)
     ax.set_xticks([0, 1])
     ax.set_xticklabels(["cut at 0.5", "oracle cut"])
@@ -246,9 +248,9 @@ def fig2(out, db="results_v2/det_v2_cic18.db"):
     n_c = int(ok.collapsed.sum())
     from matplotlib.lines import Line2D
     ax.legend(handles=[
-        Line2D([], [], marker="s", ls="", ms=3.6, mfc="black", mec="0.3",
+        Line2D([], [], marker="s", ls="", ms=3.6, mfc=ORANGE, mec=ORANGE,
                label="collapsed (n = %d)" % n_c),
-        Line2D([], [], marker="o", ls="", ms=3.6, mfc="white", mec="0.3",
+        Line2D([], [], marker="o", ls="", ms=3.6, mfc=BLUE, mec=BLUE,
                label="other runs (n = %d)" % (len(ok) - n_c))],
         frameon=False, loc="lower left", bbox_to_anchor=(0.0, 1.005), ncol=2,
         handletextpad=0.3, columnspacing=1.4)
@@ -258,9 +260,9 @@ def fig2(out, db="results_v2/det_v2_cic18.db"):
     bins = np.logspace(-4, 0, 33)
     a = ok.loc[ok.collapsed, "thr_oracle"].clip(1e-4, 1)
     b = ok.loc[~ok.collapsed, "thr_oracle"].clip(1e-4, 1)
-    ax2.hist(a, bins=bins, color="black", alpha=0.55, edgecolor="black",
+    ax2.hist(a, bins=bins, color=ORANGE, alpha=0.85, edgecolor="white",
              linewidth=0.3, label="collapsed")
-    ax2.hist(b, bins=bins, color="white", alpha=0.9, edgecolor="black",
+    ax2.hist(b, bins=bins, color="white", alpha=0.9, edgecolor=BLUE,
              linewidth=0.5, hatch="///", label="other runs")
     ax2.axvline(0.5, color="black", lw=1.0, ls="--")
     ax2.set_xscale("log")
@@ -313,7 +315,7 @@ def fig3(d, bdata, out):
                 continue
             rng = np.random.default_rng(1)
             ax.scatter(pos + rng.normal(0, 0.05, len(v)), v, s=2.5,
-                       marker=mark[rt], facecolors=fill[rt], edgecolors="0.3",
+                       marker=mark[rt], facecolors=DS_COL[dsname], edgecolors="none",
                        linewidths=0.2, alpha=0.55, zorder=2)
             ax.hlines(np.median(v), pos - 0.28, pos + 0.28, color="black", lw=1.4, zorder=4)
             ticks.append(pos)
@@ -350,24 +352,24 @@ def fig3(d, bdata, out):
                     continue
                 ax2.scatter(i + (k - 1.5) * 0.22, float(r.value.iloc[0]) * 100,
                             s=15, marker=mark[g], facecolors="white",
-                            edgecolors="black", linewidths=0.6, zorder=3)
+                            edgecolors=DS_COL[g], linewidths=0.9, zorder=3)
                 continue
-            for met, fc in [("excess", "black"), ("roc_auc", "white")]:
+            for met, fc in [("excess", None), ("roc_auc", "white")]:
                 r = bdata[(bdata.group == g) & (bdata.factor == f)
                           & (bdata.metric == met)]
                 if r.empty:
                     continue
                 dx = (k - 1.5) * 0.22 + (-0.055 if met == "excess" else 0.055)
                 ax2.scatter(i + dx, float(r.value.iloc[0]) * 100,
-                            s=15, marker=mark[g], facecolors=fc,
-                            edgecolors="black", linewidths=0.6, zorder=3)
+                            s=15, marker=mark[g], facecolors=(DS_COL[g] if fc is None else fc),
+                            edgecolors=DS_COL[g], linewidths=0.9, zorder=3)
     ax2.set_yscale("log")
     ax2.set_xticks(np.arange(len(facs)))
     ax2.set_xticklabels([lab for _, lab in facs])
     ax2.set_ylabel("spread (pp)")
     from matplotlib.lines import Line2D
-    h_ds = [Line2D([0], [0], marker=mark[g], ls="", color="black", mfc="0.55",
-                   mec="black", ms=3.2, label=g) for g in groups]
+    h_ds = [Line2D([0], [0], marker=mark[g], ls="", color=DS_COL[g], mfc=DS_COL[g],
+                   mec=DS_COL[g], ms=3.2, label=g) for g in groups]
     h_met = [Line2D([0], [0], marker="o", ls="", color="black", mfc="black",
                     mec="black", ms=3.2, label="excess"),
              Line2D([0], [0], marker="o", ls="", color="black", mfc="white",
@@ -395,9 +397,9 @@ def fig4(sm, clean, out):
     rules = [r for r in RULES15 if r in set(sm.rule)]
     y = np.arange(len(rules))[::-1]
 
-    cfg = {"cic17": ("white", "o", "CIC-IDS2017"),
-           "cic18": ("0.55", "s", "CSE-CIC-IDS2018"),
-           "unsw_pair": ("black", "^", "NF-UNSW-NB15")}
+    cfg = {"cic17": (BLUE, "o", "CIC-IDS2017"),
+           "cic18": (ORANGE, "s", "CSE-CIC-IDS2018"),
+           "unsw_pair": (AQUA, "^", "NF-UNSW-NB15")}
     for k, setting in enumerate(["cic17", "cic18", "unsw_pair"]):
         vals, los, his = [], [], []
         for r in rules:
@@ -417,11 +419,11 @@ def fig4(sm, clean, out):
             for mask, face, label in [(~special, col, lab), (special, "white", None)]:
                 ax.errorbar(np.array(vals)[mask], (y + (k - 1) * 0.30)[mask],
                             xerr=[np.array(los)[mask], np.array(his)[mask]], fmt=mk, ms=2.9,
-                            mfc=face, mec="black", mew=0.5, ecolor="0.35",
+                            mfc=face, mec=col, mew=0.8, ecolor="0.35",
                             elinewidth=0.6, capsize=1.3, lw=0, label=label, zorder=3)
         else:
             ax.errorbar(vals, y + (k - 1) * 0.30, xerr=[los, his], fmt=mk, ms=2.9,
-                        mfc=col, mec="black", mew=0.5, ecolor="0.35",
+                        mfc=col, mec=col, mew=0.8, ecolor="0.35",
                         elinewidth=0.6, capsize=1.3, lw=0, label=lab, zorder=3)
     ax.set_yticks(y)
     ax.set_yticklabels([r + "†" if r in VAL_RULES_FIG4 else r for r in rules],
@@ -451,10 +453,10 @@ def fig4(sm, clean, out):
             k_ = int((v > 0.05).sum())
             ph, lo, hi = wilson(k_, len(v))
             vals.append(ph * 100); los.append(lo * 100); his.append(hi * 100)
-        col, ha = ("white", "///") if k == 0 else ("black", "xx")
+        col, ha = (ORANGE, "///") if k == 0 else (AQUA, "xx")
         ax2.errorbar(vals, yy + (k - 0.5) * 0.34, xerr=[np.array(vals) - np.array(los),
                      np.array(his) - np.array(vals)], fmt="o", ms=3.2,
-                     mfc=col, mec="black", mew=0.5, ecolor="0.3", elinewidth=0.6,
+                     mfc=col, mec=col, mew=0.5, ecolor="0.3", elinewidth=0.6,
                      capsize=1.4, lw=0, label=lab)
     base = "fpr_fixed0.5"
     if base in clean.columns:
@@ -490,9 +492,9 @@ def fig5(fam, out, stride=3):
     seen = np.sort(pooled("unsw"))
     fig, ax = plt.subplots(figsize=(5.8, 4.3))
     for v, lab, ls, col in [(unseen, "CSE-CIC-IDS2018 test day (all families unseen)",
-                             "-", "black"),
+                             "-", ORANGE),
                             (seen, "NF-UNSW-NB15 test days (all families seen)",
-                             (0, (5, 2)), "0.45")]:
+                             (0, (5, 2)), AQUA)]:
         if not len(v):
             continue
         y = np.arange(1, len(v) + 1) / len(v)
@@ -521,7 +523,7 @@ def fig5(fam, out, stride=3):
                           medianprops=dict(color="black", lw=0.9),
                           boxprops=dict(lw=0.5), whiskerprops=dict(lw=0.5),
                           capprops=dict(lw=0.5))
-        for patch, fc, ha in zip(bp["boxes"], ["white", "0.55"], ["///", ""]):
+        for patch, fc, ha in zip(bp["boxes"], [ORANGE, AQUA], ["", ""]):
             patch.set_facecolor(fc)
             patch.set_hatch(ha)
         axin.set_xticks([1, 2])
