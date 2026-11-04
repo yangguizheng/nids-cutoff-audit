@@ -1,33 +1,33 @@
 key,year,venue,doi,dataset,split_type,T,padding_reported,threshold_reported,metric,fpr_reported,n_seeds,auc_reported,url_checked
 zhao2026,2026,Scientific Reports,10.1038/s41598-026-44360-4,CIC-IDS2017,temporal,unknown,no,no,F1;AUC;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
 yang2026,2026,Journal of King Saud University - Computer and Information Sciences,10.1007/s44443-026-00945-7,UNSW-NB15,temporal,10,no,no,F1;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
-timematters2026,2026,IEEE Access,10.1109/access.2026.3688204,UNVERIFIED,unknown,10,no,no,UNVERIFIED,no,no,no,2026-11-02:OK
-tembhurney2026,2026,,10.21203/rs.3.rs-9244380/v1,CIC-IDS2017; UNSW-NB15,stratified,10,no,yes,macro-F1;F1;AUC;AP;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
+timematters2026,2026,IEEE Access,10.1109/access.2026.3688204,NF3-UNSW-NB15; NF3-CSE-CIC-IDS2018,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,2026-11-02:OK
+tembhurney2026,2026,,10.21203/rs.3.rs-9244380/v1,CIC-IDS2017; UNSW-NB15,stratified,10-20,no,yes,macro-F1;F1;AUC;AP;ACC;FPR;DR;PREC,no,3,yes,2026-11-02:OK
 s2026,2026,International Journal of Computer Information Systems and Industrial Management Applications,10.70917/ijcisim-2026-4092,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,unknown,unknown,no,yes,F1;AUC;ACC;FPR;DR;PREC,yes,no,yes,2026-11-02:OK
 praveen2026,2026,Journal of Applied Data Sciences,10.47738/jads.v7i1.764,UNSW-NB15,unknown,unknown,no,yes,F1;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
-patil2026,2026,International journal of intelligent engineering and systems,10.22266/ijies2026.1031.16,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,temporal,20,no,no,macro-F1;F1;AUC;ACC;FPR;DR;PREC,no,no,yes,2026-11-02:OK
+patil2026,2026,International journal of intelligent engineering and systems,10.22266/ijies2026.1031.16,UNSW-NB15,temporal,20,no,yes,macro-F1;F1;AUC;ACC;FPR;DR;PREC,no,5,yes,2026-11-02:OK
 pangestu2026,2026,Equivalent: Jurnal Ilmiah Sosial Teknik,10.59261/jequi.v8i4.434,CIC-IDS2017; UNSW-NB15,stratified,unknown,no,no,macro-F1;F1;AUC;ACC;FPR;DR;PREC,yes,5,no,2026-11-02:OK
-oise2026,2026,Methods in Science and Technology Studies,10.64539/msts.v2i1.2026.462,CIC-IDS2017; UNSW-NB15,unknown,unknown,no,no,F1;AUC;ACC;FPR;DR;PREC,no,no,no,2026-11-02: OK (DOI -> OJS article; site timed out or returned HTTP 406 to automated retrieval)
-nwankwo2026,2026,Machine Learning Research,10.11648/j.mlr.20261102.13,CIC-IDS2017; UNSW-NB15,stratified,20,no,yes,F1;AUC;ACC;FPR;DR;PREC,no,no,yes,2026-11-02:OK
+oise2026,2026,Methods in Science and Technology Studies,10.64539/msts.v2i1.2026.462,CIC-IDS2017; UNSW-NB15,unknown,unknown,no,no,F1;AUC;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK (DOI resolves to OJS article; site timed out or returned 406 to automated access)
+nwankwo2026,2026,Machine Learning Research,10.11648/j.mlr.20261102.13,CIC-IDS2017; UNSW-NB15,stratified,20,no,no,F1;AUC;ACC;FPR;DR;PREC,no,1,yes,2026-11-02:OK
 nandhini2026,2026,Scientific Reports,10.1038/s41598-026-65231-y,CIC-IDS2017; UNSW-NB15,unknown,unknown,no,no,F1;AUC;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
-moczkodan2026,2026,arXiv (Cornell University),10.48550/arxiv.2606.11098,CIC-IDS2017; UNSW-NB15,temporal,20,yes,no,macro-F1;F1;AUC;ACC;FPR;DR;PREC,no,3,no,2026-11-02:OK
-mjahed2026,2026,International Journal of Computers Communications & Control,10.15837/ijccc.2026.2.7405,CIC-IDS2017; UNSW-NB15,temporal,unknown,no,yes,F1;AUC;ACC;DR;PREC,yes,no,yes,2026-11-02:OK
+moczkodan2026,2026,arXiv (Cornell University),10.48550/arxiv.2606.11098,CIC-IDS2017,random,20,yes,no,macro-F1;F1;AUC;AP;ACC;FPR;DR;PREC,yes,3,yes,2026-11-02:OK
+mjahed2026,2026,International Journal of Computers Communications & Control,10.15837/ijccc.2026.2.7405,CIC-IDS2017; UNSW-NB15,temporal,unknown,no,yes,F1;AUC;ACC;FPR;DR;PREC,yes,10,yes,2026-11-02:OK
 liu2026,2026,JUCS - Journal of Universal Computer Science,10.3897/jucs.207303,CIC-IDS2017; UNSW-NB15,unknown,unknown,no,no,F1;ACC;FPR;DR;PREC,yes,10,no,2026-11-02:OK
 li2026,2026,Ingegneria Sismica,10.65102/is2026550,CIC-IDS2017; UNSW-NB15,unknown,unknown,no,no,F1;AUC;ACC;FPR;DR;PREC,no,no,yes,2026-11-02:OK
 lavaniya2026,2026,International Journal on Cybernetics & Informatics,10.5121/ijci.2026.150115,CSE-CIC-IDS2018; UNSW-NB15,unknown,unknown,no,no,F1;ACC;DR;PREC,no,no,no,2026-11-02:OK
-koley2026,2026,ITEGAM- Journal of Engineering and Technology for Industrial Applications (ITEGAM-JETIA),10.5935/jetia.v12i61.3311,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,stratified,unknown,no,no,F1;AUC;ACC;DR;PREC,no,no,yes,2026-11-02: OK (DOI -> JETIA article; site returned HTTP 406 to automated retrieval)
+koley2026,2026,ITEGAM- Journal of Engineering and Technology for Industrial Applications (ITEGAM-JETIA),10.5935/jetia.v12i61.3311,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,stratified,unknown,no,no,F1;AUC;ACC;DR;PREC,no,no,yes,2026-11-02:OK (DOI resolves to JETIA article; site returned 406 to automated access)
 jayapal2026,2026,IAES International Journal of Robotics and Automation (IJRA),10.11591/ijra.v15i3.pp698-708,CSE-CIC-IDS2018,stratified,unknown,no,no,F1;ACC;DR;PREC,no,no,no,2026-11-02:OK
 gavhane2026,2026,Journal of Intelligent Decision Making and Information Science,10.59543/jidmis.v3.1248,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,stratified,unknown,yes,no,macro-F1;F1;AUC;AP;ACC;FPR;DR;PREC,no,no,yes,2026-11-02:OK
-ganesh2026,2026,International journal of intelligent engineering and systems,10.22266/ijies2026.0930.03,CSE-CIC-IDS2018; UNSW-NB15,stratified,unknown,no,yes,F1;AUC;ACC;FPR;DR;PREC,yes,no,no,2026-11-02:OK
-dsdan2026,2026,PLoS ONE,10.1371/journal.pone.0357204,UNVERIFIED,unknown,10,yes,yes,UNVERIFIED,no,no,no,2026-11-02:OK
+ganesh2026,2026,International journal of intelligent engineering and systems,10.22266/ijies2026.0930.03,CSE-CIC-IDS2018; UNSW-NB15,stratified,unknown,no,yes,F1;ACC;FPR;DR;PREC,yes,no,no,2026-11-02:OK
+dsdan2026,2026,PLoS ONE,10.1371/journal.pone.0357204,UNSW-NB15,stratified,10,yes,yes,macro-F1;F1;AUC;AP;ACC;FPR;DR;PREC,yes,5,yes,2026-11-02:OK
 devi2026,2026,International Journal of Creative and Open Research in Engineering and Management,10.55041/ijcope.v2i6.160,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,unknown,unknown,no,no,F1;ACC;DR;PREC,yes,no,no,2026-11-02:OK
 daniel2026,2026,International journal of intelligent engineering and systems,10.22266/ijies2026.0531.36,CIC-IDS2017; UNSW-NB15,stratified,unknown,no,yes,macro-F1;F1;AUC;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
 chattopadhyay2026,2026,arXiv (Cornell University),10.48550/arxiv.2604.12655,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,temporal,20,no,no,F1;ACC;DR,no,no,no,2026-11-02:OK
 ariffin2026,2026,arXiv (Cornell University),10.48550/arxiv.2608.04602,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,stratified,4,no,no,macro-F1;F1;ACC;DR,no,no,no,2026-11-02:OK
 alsarray2026,2026,Journal Port Science Research,10.36371/mtjfbw62,CIC-IDS2017,unknown,unknown,no,no,F1;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
-alsarayreh2026,2026,Engineering Technology & Applied Science Research,10.48084/etasr.18257,CSE-CIC-IDS2018; UNSW-NB15,random,25,no,yes,macro-F1;F1;AUC;ACC;DR;PREC,no,no,no,2026-11-02:OK
+alsarayreh2026,2026,Engineering Technology & Applied Science Research,10.48084/etasr.18257,CSE-CIC-IDS2018; UNSW-NB15,unknown,25,no,no,macro-F1;F1;AUC;ACC;DR;PREC,no,no,yes,2026-11-02:OK
 ali2026,2026,,10.21203/rs.3.rs-11286680/v1,CIC-IDS2017,stratified,unknown,no,no,F1;AUC;AP;ACC;DR;PREC,no,20,yes,2026-11-02:OK
-alhitawi2026,2026,F1000Research,10.12688/f1000research.182153.1,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,temporal,100,yes,no,F1;AUC;ACC;FPR;DR;PREC,yes,no,no,2026-11-02:OK
+alhitawi2026,2026,F1000Research,10.12688/f1000research.182153.1,CSE-CIC-IDS2018; UNSW-NB15,temporal,100,yes,yes,F1;AUC;AP;ACC;FPR;DR;PREC,yes,1,yes,2026-11-02:OK
 alhayan2026,2026,Scientific Reports,10.1038/s41598-026-40763-5,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,unknown,unknown,no,no,F1;AUC;ACC;FPR;DR;PREC,no,no,yes,2026-11-02:OK
 zhang2025,2025,Research Square,10.21203/rs.3.rs-7316391/v1,CIC-IDS2017; UNSW-NB15,temporal,unknown,no,no,F1;ACC;FPR;DR;PREC,yes,10,no,2026-11-02:OK
 wang2025,2025,Research Square,10.21203/rs.3.rs-8183839/v1,CSE-CIC-IDS2018,random,unknown,no,yes,F1;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
@@ -36,15 +36,15 @@ modi2025,2025,,10.21203/rs.3.rs-6928225/v1,CIC-IDS2017,unknown,unknown,no,no,F1;
 elaziz2025,2025,Frontiers in Big Data,10.3389/fdata.2025.1526480,CIC-IDS2017; UNSW-NB15,unknown,unknown,no,no,F1;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
 anon2025,2025,Journal of Ai ML DL,10.25163/ai.1110763,CSE-CIC-IDS2018; UNSW-NB15,stratified,unknown,no,yes,F1;AUC;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
 alsadh2025,2025,International journal of intelligent engineering and systems,10.22266/ijies2026.0131.29,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,stratified,unknown,no,no,macro-F1;F1;AUC;ACC;FPR;DR;PREC,no,5,no,2026-11-02:OK
-abdalameer2025,2025,Journal of Al-Qadisiyah for Computer Science and Mathematics,10.29304/jqcsm.2025.17.32432,UNSW-NB15,stratified,64,no,yes,macro-F1;F1;AUC;ACC;DR;PREC,no,no,yes,2026-11-02:OK
+abdalameer2025,2025,Journal of Al-Qadisiyah for Computer Science and Mathematics,10.29304/jqcsm.2025.17.32432,UNSW-NB15,stratified,64,no,yes,macro-F1;F1;AUC;ACC;FPR;DR;PREC,yes,no,yes,2026-11-02:OK
 yang2024,2024,Scientific Reports,10.1038/s41598-024-70094-2,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,unknown,unknown,no,yes,F1;AUC;ACC;FPR;DR;PREC,yes,no,yes,2026-11-02:OK
 xi2024,2024,Scientific Reports,10.1038/s41598-024-74214-w,UNSW-NB15,unknown,unknown,no,no,macro-F1;F1;ACC;DR;PREC,yes,no,no,2026-11-02:OK
 kamel2024,2024,Journal of Al-Qadisiyah for Computer Science and Mathematics,10.29304/jqcsm.2024.16.41780,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,unknown,unknown,no,no,AUC;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
 huang2024,2024,arXiv (Cornell University),10.48550/arxiv.2412.04473,CIC-IDS2017,random,unknown,yes,no,macro-F1;F1;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
 hu2024,2024,Complex & Intelligent Systems,10.1007/s40747-024-01577-y,CIC-IDS2017; UNSW-NB15,unknown,unknown,no,no,F1;ACC;DR;PREC,no,no,no,2026-11-02:OK
 gueriani2024,2024,International Conference on Pattern Analysis and Intelligent Systems (PAIS),10.1109/pais62114.2024.10541178,CIC-IDS2017,unknown,45,no,no,F1;ACC;FPR;DR;PREC,yes,no,no,2026-11-02:OK
-flowtransformer2024,2024,Expert Syst. Appl.,10.1016/j.eswa.2023.122564,UNVERIFIED,unknown,config,no,no,UNVERIFIED,no,no,no,2026-11-02:OK
-xiang2023,2023,EURASIP Journal on Wireless Communications and Networking,10.1186/s13638-023-02279-8,UNSW-NB15,unknown,unknown,no,no,F1;ACC;DR;PREC,no,no,no,2026-11-02: OK (DOI -> Springer IDP; landing page returned HTTP 200)
+flowtransformer2024,2024,Expert Syst. Appl.,10.1016/j.eswa.2023.122564,NF-CSE-CIC-IDS2018; NF-UNSW-NB15,unknown,config,no,no,F1;FPR;DR,yes,3,no,2026-11-02:OK
+xiang2023,2023,EURASIP Journal on Wireless Communications and Networking,10.1186/s13638-023-02279-8,UNSW-NB15,unknown,unknown,no,no,F1;ACC;DR;PREC,no,no,no,2026-11-02:OK (DOI resolves to Springer page; landing page 200)
 wang2023,2023,IEEE Access,10.1109/access.2023.3271408,CIC-IDS2017; CSE-CIC-IDS2018; UNSW-NB15,random,unknown,no,no,F1;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
 alomar2023,2023,European Conference on Cyber Warfare and Security,10.34190/eccws.22.1.1172,CSE-CIC-IDS2018; UNSW-NB15,unknown,unknown,no,no,F1;ACC;FPR;DR;PREC,no,no,no,2026-11-02:OK
-staudemeyer2015,2015,S. Afr. Comput. J.,10.18489/sacj.v56i1.248,UNVERIFIED,unknown,unknown,no,no,UNVERIFIED,no,no,no,2026-11-02:OK
+staudemeyer2015,2015,S. Afr. Comput. J.,10.18489/sacj.v56i1.248,NO_FULLTEXT,NO_FULLTEXT,NO_FULLTEXT,NO_FULLTEXT,NO_FULLTEXT,NO_FULLTEXT,NO_FULLTEXT,NO_FULLTEXT,NO_FULLTEXT,2026-11-02:OK

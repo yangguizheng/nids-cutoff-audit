@@ -1,0 +1,2 @@
+dataset,zero_day,comparison,n_runs,n_clusters,n_gt5_05,share_gt5_05,n_gt5_qtrain,share_gt5_qtrain,diff_qtrain_minus_05_pp,ci_lo_pp,ci_hi_pp,n_05_not_gt5_to_qtrain_gt5,n_05_gt5_to_qtrain_not_gt5,n_bootstrap,bootstrap_seed
+NF-UNSW-NB15,2015-01-23,qtrain_minus_0.5,1800,360,314,0.17444444444444446,726,0.4033333333333333,22.888888888888886,18.555555555555557,27.279166666666647,465,53,10000,20261101

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import math
 import os
+import sqlite3
 import sys
 import unicodedata
 
@@ -262,9 +263,48 @@ def t_s6():
 
 
 def t_s7():
-    c = pd.read_csv(os.path.join(R2, "wp2a_cw_paired.csv"))
+    arms = [
+        ("CIC17", "det_v2_cic17.db", "det_nocw_cic17.db"),
+        ("CIC18", "det_v2_cic18.db", "det_nocw_cic18.db"),
+        ("UNSW", "det_unsw_s20.db", "det_nocw_unsw.db"),
+    ]
+    rows = []
+    for dataset, cw_name, nocw_name in arms:
+        arms_rows = []
+        for db_name in (cw_name, nocw_name):
+            con = sqlite3.connect(os.path.join(R2, db_name))
+            data = pd.read_sql_query(
+                "select cell, model, seed, fold, test_pos_rate, macro_f1, "
+                "pos_q50, roc_auc, thr_oracle from runs", con)
+            con.close()
+            if data.duplicated(["cell", "model", "seed", "fold"]).any():
+                raise ValueError(f"Duplicate S7 pairing key in {db_name}")
+            arms_rows.append(data)
+        cw, nocw = arms_rows
+        c = cw.merge(nocw, on=["cell", "model", "seed", "fold"],
+                     suffixes=("_cw", "_nocw"), validate="one_to_one")
+        if len(c) != len(cw) or len(c) != len(nocw):
+            raise ValueError(f"Incomplete S7 pairing for {dataset}")
+        p_cw = c["test_pos_rate_cw"].to_numpy(float)
+        p_nocw = c["test_pos_rate_nocw"].to_numpy(float)
+        floor_cw = np.maximum((1 - p_cw) / (2 - p_cw), p_cw / (1 + p_cw))
+        floor_nocw = np.maximum((1 - p_nocw) / (2 - p_nocw), p_nocw / (1 + p_nocw))
+        excess_cw = c["macro_f1_cw"].to_numpy(float) - floor_cw
+        excess_nocw = c["macro_f1_nocw"].to_numpy(float) - floor_nocw
+        c["dataset"] = dataset
+        c["segment"] = c["cell"].map(lambda x: "tw30s" if x.startswith("tw") else x.split("/")[0])
+        c["d_excess"] = excess_cw - excess_nocw
+        c["d_roc_auc"] = c["roc_auc_cw"] - c["roc_auc_nocw"]
+        c["d_pos_q50"] = c["pos_q50_cw"] - c["pos_q50_nocw"]
+        c["d_thr_oracle"] = c["thr_oracle_cw"] - c["thr_oracle_nocw"]
+        c["coll_cw"] = excess_cw < 0.02
+        c["coll_nocw"] = excess_nocw < 0.02
+        rows.append(c)
+    c = pd.concat(rows, ignore_index=True)
+    if len(c) != 3600:
+        raise ValueError(f"Expected 3600 S7 pairs, got {len(c)}")
     g = c.groupby(["dataset", "model", "segment"], as_index=False).agg(
-        n_runs=("run_id", "size"),
+        n_runs=("cell", "size"),
         d_excess_median=("d_excess", "median"),
         d_excess_mean=("d_excess", "mean"),
         d_roc_auc_median=("d_roc_auc", "median"),
@@ -408,71 +448,78 @@ def t_s13():
 
 def t_s14():
     rows = [
-        (1, "S3: align training and test positive rates",
-         "Computed offline: attack sequences of the test day were subsampled without replacement "
-         "(20 repetitions, averaged) to the training prior of each cell; models were not retrained",
-         "Retraining was not needed to change the test prior",
-         "S3 cannot change the outcome of runs that predict no positive (163 of 506 collapsed "
-         "CSE-CIC-IDS2018 runs); 419 had f1_pos = 0, which is not equivalent to predicting no "
-         "positive. The prior-matched E1 arm P is used as the main M2 test"),
-        (2, "Validation-based cut-off rules (val_thr, val_rank, scale_val, BBSE, calibrated EM) "
-            "on NF-UNSW-NB15, both folds",
-         "Reported for fold 0 only (900 runs)",
-         "The validation tail of fold 1 contains no attack sequences",
-         "Table 12 footnote; comparisons are made against fixed 0.5 on the same 900 runs"),
-        (3, "E1 Web group (test day 23 February 2018)",
-         "Cancelled before any run",
-         "Pre-registered feasibility gate: at most 12 positive test sequences per route against "
-         "a minimum of 30",
-         "E1 rests on the Infiltration group only"),
-        (4, "E1 tw30s route", "Reported descriptively",
-         "Pre-registered gate: 16 positive test sequences",
-         "None on the registered decision"),
-        (5, "Run determinism",
-         "cuDNN autotuning disabled; deterministic cuDNN algorithms not enforced",
-         "Enforcing them slowed TCN training about 30-fold",
-         "666 of 675 re-trained runs reproduced exactly; nine TCN runs differed by at most 0.0018 "
-         "in macro-F1 and 0.0002 in ROC-AUC"),
-        (6, "Early stopping on validation macro-F1",
-         "Unchanged, but in NF-UNSW-NB15 fold 1 the validation tail is attack-free, so the "
-         "criterion rewards epochs without false alarms",
-         "Property of the two-fold split",
-         "Disclosed in Experimental Setup and Limitation 5"),
-        (7, "M2: S3 collapse at least 20 points below S0, or saerens/BBSE collapse at most 15%",
-         "Validation-calibrated EM (saerens_cal), an added cut-off-rule variant, reduced collapse "
-         "by 20.5 points relative to fixed 0.5; it was not named in the registered M2 rule",
-         "Variant added to the cut-off rule set",
-         "Reported as a post-hoc variant; M2 is read as partly supported rather than as satisfied "
-         "by saerens_cal alone"),
-        (8, "Within-family AUC and median scores in M3; cross-dataset comparison of these quantities",
-         "The registered M3 quantities were computed; comparisons between datasets were descriptive "
-         "and were not added as decision rules",
-         "—", "Cross-dataset comparisons labelled as descriptive in Results"),
-        (9, "NF-UNSW-NB15: 20 seeds per cell (registered before the new runs)",
-         "The first class-weight analysis used seeds 0-4; both class-weight arms and the main "
-         "20-seed analyses were subsequently extended to seeds 0-19",
-         "Registered target of 20 seeds; preserve paired class-weight comparisons and improve precision",
-         "Directions of all results unchanged"),
-        (10, "M1: dataset-level CSE-CIC-IDS2018 collapse-rate difference",
-         "Applied the decision rule to aggregate CSE-CIC-IDS2018 collapse rates; per-model results "
-         "were reported separately",
-         "The machine-readable rule subtracts aggregate collapse rates and does not define a "
-         "per-model decision",
-         "No per-model M1 decision was substituted for the registered aggregate rule"),
+        (1, 'S3: align training and test positive rates',
+         'Computed offline: attack sequences of the test day were subsampled without replacement (20 repetitions, averaged) to the training prior of each cell; models were not retrained',
+         'Retraining was not needed to change the test prior',
+         'S3 cannot change the outcome of runs that predict no positive (163 of 506 collapsed CSE-CIC-IDS2018 runs); 419 had f1_pos = 0, which is not equivalent to predicting no positive. M2 therefore has no effective retraining test (row 11)'),
+        (2, 'Validation-based cut-off rules (val_thr, val_rank, scale_val, BBSE, calibrated EM) on NF-UNSW-NB15, both folds',
+         'Reported for fold 0 only (900 runs)',
+         'The validation tail of fold 1 contains no attack sequences',
+         'Table 12 footnote; comparisons are made against fixed 0.5 on the same 900 runs'),
+        (3, 'E1 Web group (test day 23 February 2018)',
+         'Cancelled before any run',
+         'Pre-specified feasibility gate: at most 12 positive test sequences per route against a minimum of 30',
+         'E1 rests on the Infiltration group only'),
+        (4, 'E1 tw30s route',
+         'Reported descriptively',
+         'Pre-specified gate: 16 positive test sequences',
+         'None on the pre-specified decision'),
+        (5, 'Run determinism',
+         'cuDNN autotuning disabled; deterministic cuDNN algorithms not enforced',
+         'Enforcing them slowed TCN training about 30-fold',
+         '666 of 675 re-trained runs reproduced exactly; nine TCN runs differed by at most 0.0018 in macro-F1 and 0.0002 in ROC-AUC'),
+        (6, 'Early stopping on validation macro-F1',
+         'Unchanged, but in NF-UNSW-NB15 fold 1 the validation tail is attack-free, so the criterion rewards epochs without false alarms',
+         'Property of the two-fold split',
+         'Disclosed in Experimental Setup and Limitation 5'),
+        (7, 'M2: S3 collapse at least 20 points below S0, or saerens/BBSE collapse at most 15%',
+         'Validation-calibrated EM (saerens_cal), an added cut-off-rule variant, reduced collapse by 20.5 points relative to fixed 0.5; it was not named in the pre-specified M2 rule',
+         'Variant added to the cut-off rule set',
+         'Reported as a post-hoc variant; M2 is reported as not supported under the pre-specified rule but not excluded'),
+        (8, 'Within-family AUC and median scores in M3; cross-dataset comparison of these quantities',
+         'The pre-specified M3 quantities were computed; comparisons between datasets were descriptive and were not added as decision rules',
+         '—',
+         'Cross-dataset comparisons labelled as descriptive in Results'),
+        (9, 'NF-UNSW-NB15: 20 seeds per cell (pre-specified before the new runs)',
+         'The first class-weight analysis used seeds 0-4; both class-weight arms and the main 20-seed analyses were subsequently extended to seeds 0-19',
+         'Pre-specified target of 20 seeds; preserve paired class-weight comparisons and improve precision',
+         'Directions of all results unchanged'),
+        (10, 'M1: dataset-level CSE-CIC-IDS2018 collapse-rate difference',
+         'Applied the decision rule to aggregate CSE-CIC-IDS2018 collapse rates; per-model results were reported separately',
+         'The machine-readable rule subtracts aggregate collapse rates and does not define a per-model decision',
+         'No per-model M1 decision was substituted for the pre-specified aggregate rule'),
+        (11, 'E1 arm P: subsample U attack sequences until its training prior equals that of S',
+         'Implemented on tw30s only. On host and service no attack sequences were available for subsampling (prior_match_note = no_extra_attack in all 600 runs), so P repeats U',
+         'U and S training priors already differ by less than 0.003 on these routes (0.110 vs 0.108; 0.067 vs 0.064)',
+         'P against U is not a prior test; it is no longer used as M2 evidence. On the keyed routes the S against U contrast holds the prior nearly constant'),
+        (12, 'Use the published capture days',
+         'Each CSE-CIC-IDS2018 and NF-UNSW-NB15 cell keeps at most 200,000 segments (uniform random, before the split); NF-UNSW-NB15 cells are capped at 80,000 sequences (stratified on the label); CIC-IDS2017 is not subsampled',
+         'Memory',
+         'Disclosed in Datasets and splits'),
+        (13, 'Controlled experiments reuse the 20 seeds of the core library',
+         'Split controls S1 and S2 use 10 seeds per cell (450 runs each)',
+         'Compute budget',
+         'Denominators stated in Experimental Setup and Table S11'),
+        (14, 'Cross-day split at the day level',
+         'On host and service, the last chunk of a key on one day can continue into the next day and is assigned to the earlier day',
+         'The grouping key does not contain the day',
+         'Disclosed in Definitions and Limitation 10: service route 5.5% to 11.0% of sequences, host route at most 1.1%, tw30s none; test-day attack flows carried into training or validation: 50 (CIC-IDS2017), 11 (CSE-CIC-IDS2018), 0 (E1), up to 726 (NF-UNSW-NB15 fold 1)'),
     ]
-    return pd.DataFrame(rows, columns=["#", "Registered element", "What was done", "Reason",
+    return pd.DataFrame(rows, columns=["#", "Pre-specified element", "What was done", "Reason",
                                        "Effect on conclusions"])
 
 
 SPECS = [
-    ("S1", "Table S1. Coding of the 49 screened flow-sequence NIDS studies and the 12 that meet "
-           "the inclusion rule, with reporting items.",
+    ("S1", "Table S1. Coding of the 49 screened flow-sequence NIDS studies and the 10 that meet "
+           "the inclusion rule, with reporting items and supporting passages.",
      "lit/extraction.csv (49 rows, 14 reporting columns) joined to lit/d1_calls.csv on key "
      "(D1 sequence verdict, grade, evidence sentence); assembled by scripts_v2/supplemental_tables.py",
      t_s1,
-     ["d1_sequence_verdict: yes = the study builds cross-time-step sequences (the 12 in the denominator); "
-      "no = explicitly not sequences; insufficient = full text read but undecidable; excluded = exclusion rule.",
-      "d1_evidence_sentence is the quoted sentence the verdict rests on."],
+     ["d1_sequence_verdict: yes = the study builds cross-time-step sequences (the 10 in the denominator); "
+      "no = does not meet the sequence/dataset inclusion rule; insufficient = full text read but undecidable; "
+      "excluded = exclusion rule.",
+      "d1_evidence_sentence is an English source quotation with a section/table locator, or NO_FULLTEXT "
+      "when the full text is unavailable."],
      {"d1_evidence_sentence": 70, "metric": 26, "doi": 30}),
 
     ("S2", "Table S2. Paired win rates with cluster-bootstrap 95% intervals for excess, ROC-AUC and "
@@ -523,8 +570,9 @@ SPECS = [
      {"cell": 30}),
 
     ("S7", "Table S7. Paired comparison with and without class weighting, by dataset, model and route.",
-     "results_v2/wp2a_cw_paired.csv (2250 per-run rows) aggregated to dataset x model x route "
-     "(45 rows) by scripts_v2/supplemental_tables.py",
+     "Six SQLite run databases (det_v2_cic17, det_v2_cic18, det_unsw_s20 and their det_nocw "
+     "counterparts), paired by cell, model, seed and fold (3600 per-run rows) and aggregated to "
+     "dataset x model x route (45 rows) by scripts_v2/supplemental_tables.py",
      t_s7,
      ["d_excess, d_roc_auc, d_pos_q50 and d_thr_oracle are within-run differences, "
       "with-class-weighting minus without.",
@@ -589,7 +637,7 @@ SPECS = [
       "Web group was cancelled as a whole (A10.3 gate 2): d5 attack flows 208 (0.0034%), "
       "d6 attack flows 230 (0.0038%); test-day positive sequences tw30s/host/service = "
       "0/12/12, all < 30. No Web runs exist; its decision-table row is 5.",
-      "Per-model collapse rate (Inf, all subset) and the pre-registered A10.6 decision rule "
+      "Per-model collapse rate (Inf, all subset) and the pre-specified A10.6 decision rule "
       "with per-subset verdict are appended below.",
       "service hits no decision row: S-U = -13.7 pp exceeds row-3's '<10 pp' and does not "
       "reach row-1/2's 20 pp, so the number is reported as-is per spec section 3."],
@@ -608,16 +656,16 @@ SPECS = [
       "two test days."],
      {"dataset": 22}),
 
-    ("S14", "Table S14. Deviations from the registered analysis plan, and clarifications of how "
+    ("S14", "Table S14. Deviations from the analysis plan, and clarifications of how "
             "it was implemented.",
-     "Registered analysis plan commit e0dc336 and E1 addendum commit c1ced61; "
+     "Analysis plan commit e0dc336 and E1 addendum commit c1ced61 (private repository; public editions and SHA-256 hashes in preregistration/); "
      "assembled by scripts_v2/supplemental_tables.py",
      t_s14,
-     ["Registered documents: results_v2/ANALYSIS_PLAN.md at commit e0dc336 and "
-      "results_v2/ANALYSIS_PLAN_ADDENDUM.md at commit c1ced61.",
-      "Row 9 distinguishes the pre-registered 20-seed target from its later execution; row 10 "
-      "clarifies that M1 is an aggregate, not per-model, decision."],
-     {"Registered element": 46, "What was done": 72, "Reason": 44, "Effect on conclusions": 62}),
+     ["Plan documents: results_v2/ANALYSIS_PLAN.md at commit e0dc336 and "
+      "results_v2/ANALYSIS_PLAN_ADDENDUM.md at commit c1ced61. The plan is internal and was not lodged with a public registry.",
+      "Row 9 distinguishes the pre-specified 20-seed target from its later execution; row 10 "
+      "clarifies that M1 is an aggregate, not per-model, decision; rows 11-14 were added after an external pre-submission check."],
+     {"Pre-specified element": 46, "What was done": 72, "Reason": 44, "Effect on conclusions": 62}),
 ]
 
 
@@ -643,10 +691,10 @@ def main() -> int:
     readme["A2"] = ("One worksheet per table; the worksheet name is the table number used in the "
                     "manuscript's Supplemental Information list.")
     readme["A2"].font = F_SRC
-    readme["A3"] = ("All values are copied from the analysis outputs by scripts_v2/supplemental_tables.py; "
-                    "nothing is recomputed. Cells hold the full-precision value and only the display "
-                    "format rounds to four decimals, so clicking a cell shows the exact number. Ratios "
-                    "are stored as fractions in [0,1], not as percentages.")
+    readme["A3"] = ("All values are derived from the analysis outputs by scripts_v2/supplemental_tables.py. "
+                    "Cells hold the full-precision value and only the display format rounds to four "
+                    "decimals, so clicking a cell shows the exact number. Ratios are stored as fractions "
+                    "in [0,1], not as percentages.")
     readme["A3"].font = F_SRC
 
     hdr = [("sheet", "sheet"), ("caption", "caption"), ("source", "source file"),

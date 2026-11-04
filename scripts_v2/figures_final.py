@@ -438,7 +438,7 @@ def fig4(sm, clean, out):
 
     ax2 = axes[1]
     rules_fpr = [c[len("fpr_"):] for c in clean.columns if c.startswith("fpr_")]
-    days = [("cic18", "CSE-CIC-IDS2018 (clean day)"), ("unsw", "NF-UNSW-NB15 (clean day)")]
+    days = [("cic18", "CSE-CIC-IDS2018 (clean windows)"), ("unsw", "NF-UNSW-NB15 (clean windows)")]
     yy = np.arange(len(rules_fpr))[::-1]
     for k, (dsname, lab) in enumerate(days):
         sub = clean[clean.dataset == dsname]
