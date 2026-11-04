@@ -107,7 +107,7 @@ Raw CIC-IDS2017, CSE-CIC-IDS2018, and NF-UNSW-NB15 CSV/parquet files are not red
 
 The feature lists and conversion/sequence-construction code needed to apply the pipeline are included. Input paths are configuration options or repository-relative paths; no server-specific directory is required.
 
-Per-sequence `*.npz` score files are excluded from GitHub because of their size. They belong in the associated Zenodo record, packaged by dataset with a `SCORES_MANIFEST.csv` containing file names, run IDs, sizes, and SHA-256 hashes. Until that archive is published, scores can be regenerated with `scripts_v2/wp2e_dump.py`. The SQLite `score_file` fields are repository-relative references to these external files.
+Per-sequence `*.npz` score files (about 1 GB in total) are not distributed, either on GitHub or in the Zenodo archive. They can be regenerated from the public datasets with `scripts_v2/wp2e_dump.py` using the settings in `scripts_v2/queue_wp2e.sh`. All numbers reported in the article can be recomputed from the per-run SQLite databases included here; only the score-distribution plot of Figure 5 and the score-dependent EM edge-case check in `t1_extra.py` need the regenerated score files. The SQLite `score_file` fields are repository-relative references to these regenerated files.
 
 Third-party literature PDFs are not redistributed; only the screening and extraction CSVs are included.
 
