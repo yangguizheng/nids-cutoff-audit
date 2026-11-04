@@ -1,0 +1,16 @@
+{
+  "title": "Replication package for \"Ranking Well, Deciding Badly: Disentangling Score Ranking from Cut-off Placement in Cross-Day Flow-Sequence Intrusion Detection\"",
+  "upload_type": "software",
+  "description": "Code, per-run results (SQLite), derived analysis tables, supplemental tables S1-S14, and public editions of the registered analysis plan for an audit of fixed 0.5 cut-off evaluation in cross-day flow-sequence network intrusion detection on CIC-IDS2017, CSE-CIC-IDS2018 and NF-UNSW-NB15. Raw datasets and per-sequence score files are not included; see README.md.",
+  "creators": [
+    {"name": "Yang, Guizheng", "affiliation": "Center for Modern Educational Technology, Hechi University", "orcid": "0009-0006-6585-7015"},
+    {"name": "Luo, Chengdong", "affiliation": "Center for Modern Educational Technology, Hechi University", "orcid": "0009-0002-7519-886X"},
+    {"name": "Tan, Kejiu", "affiliation": "Center for Modern Educational Technology, Hechi University", "orcid": "0009-0004-3140-8452"}
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": ["network intrusion detection", "evaluation methodology", "decision threshold", "macro-F1", "ROC-AUC", "CIC-IDS2017", "CSE-CIC-IDS2018", "NF-UNSW-NB15"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/yangguizheng/nids-cutoff-audit", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}
